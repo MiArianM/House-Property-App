@@ -15,13 +15,20 @@
     font-family: "bold-lexend";
     src: url(./src/font/Lexend-Bold.ttf);
 }
+html{
+    font-size: 62.5%;
+}
+body{
+    direction: ltr;
+}
+
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
 }
 ::placeholder{
@@ -35,8 +42,11 @@ a{
     text-decoration: none;
 }
 .Container{
-    margin-left: 120px;
-    margin-right: 120px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Background - Effects */
 
@@ -66,24 +76,26 @@ a{
 /* Hero General Section */
 .Hero{
     width: inherit;
-    height: 720px;
+    min-height: 720px;
+    
 }
 .Hero_nav{
-    width: 1200px;
+    width: 85%;
     height: 46px;
 }
 .Hero_content{
     display: flex;
-    gap: 75px;
-    width: inherit;
-    height: inherit;
+    gap: 20px;
+    min-width: inherit;
+    min-height: inherit;
+    flex-wrap: nowrap; /* into wrap in media Qu*/
 }
 .Hero_Title{
-    width: 496px;
-    height: 446px;
+    max-width: 100%;
+    min-height: 446px;
 }
 .Hero_Introduction{
-    width: 907px;
+    min-width: inherit; /* into lower in media Qu*/
     height: 720px;
 }
 /* Hero Details Section*/
@@ -108,14 +120,13 @@ a{
 }
 .Title{
     width: inherit;
-    height: 270px;
 }
 .Search{
-    width: 90%;
+    width: inherit;
     height: 56px;
 }
 .Partnership{
-    width: 427px;
+    max-width: 90%;
     height: 96px;
 }
 .Hero_Services{
@@ -203,7 +214,6 @@ a{
     display: flex;
     border: #E0E3EB 1px solid;
     border-radius: 32px;
-    width: inherit;
     padding-left: 12px;
     align-items: center;
 }
@@ -218,6 +228,7 @@ a{
     width: 25px;
     height: 25px;
     padding-left: 15px;
+    cursor: pointer;
 }
 .Search_button{
     width: 109px;
@@ -236,6 +247,7 @@ a{
     display: flex;
     align-items: center;
     gap: 32px;
+    min-height: 80px;
 }
 .Partnership__text{
     color: #888B97;
@@ -249,7 +261,24 @@ a{
 .Partnerships:hover .Partnerships_Details{
     transform: translate(13px,0px);
     opacity:1;
-
+}
+.Partnerships_Image{
+    cursor: pointer;
+    transform: translate(0px);
+    transition: 1s all;
+    border-bottom: 1px solid transparent;
+}
+.Partnerships_Image:hover{
+    transform: translate(0px,-10px);
+    border-bottom: 1px solid gray;
+}
+a[href="google.com"]{
+    color: #626687;
+    transition: 0.5s all;
+    font-family: "regular-lexend";
+}
+a[href="google.com"]:hover{
+    color: #2a3d8b;
 }
 /* Home Introduction - - - - - - - - - */
 .Hero-Image{
@@ -330,3 +359,47 @@ transition: all 0.75s;
 .Search_button:hover{
     background-color: #047857;
 }
+/* Hero Responsiveness*/
+
+/* Hamburger Menu*/
+
+
+    @media only screen and (max-width: 1100px){
+        .Hero_content{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Title{
+            min-height: 180px;
+            max-width: 85%;
+            text-align: center;
+        }
+        .Search{
+            justify-content: center;
+            max-width: 80%;
+        }
+        .Partnership{
+            text-align: center;
+        }
+        .Partnership__list{
+            justify-content: center;
+        }
+    }
+    @media only screen and (max-width: 495px){
+        .Partnership__list{
+            width: 314px ; 
+        }
+        .Search_input{
+            font-size: 10px;
+        }
+    }
+    @media only screen and (max-width: 448px){
+        .Partnership__list{
+            flex-wrap: wrap;
+            width: 314px ;
+        }
+        .Hero_Introduction{
+            margin-top: 100px;
+        }
+    }
