@@ -1,0 +1,332 @@
+/* General */
+@font-face {
+    font-family: "semibold-lexend";
+    src: url(./src/font/Lexend-SemiBold.ttf);
+}
+@font-face {
+    font-family: "medium-lexend";
+    src: url(./src/font/Lexend-Medium.ttf);
+}
+@font-face {
+    font-family: "regular-lexend";
+    src: url(./src/font/Lexend-Regular.ttf);
+}
+@font-face {
+    font-family: "bold-lexend";
+    src: url(./src/font/Lexend-Bold.ttf);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+::placeholder{
+    color: #888B97;
+    font-family: "medium-lexend";
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.Container{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+/* Background - Effects */
+
+.background-blur-1 {
+    position: absolute;
+    top: -102px;
+    left: -173px;
+    width: 438px;
+    height: 494px;
+    background: radial-gradient(circle, #82F7FF, rgba(255, 255, 255, 0));
+    filter: blur(90px);
+    z-index: -1;
+    border-bottom-right-radius: 1000px;
+}
+.background-blur-2 {
+    position: absolute;
+    top: -152px;
+    left: 100px;
+    width: 494px;
+    height: 494px;
+    background: radial-gradient(circle, #82FFD2, rgba(255, 255, 255, 0));
+    filter: blur(150px);
+    z-index: -1;
+    border-bottom-right-radius: 2000px;
+}
+
+/* Hero General Section */
+.Hero{
+    width: inherit;
+    height: 720px;
+}
+.Hero_nav{
+    width: 1200px;
+    height: 46px;
+}
+.Hero_content{
+    display: flex;
+    gap: 75px;
+    width: inherit;
+    height: inherit;
+}
+.Hero_Title{
+    width: 496px;
+    height: 446px;
+}
+.Hero_Introduction{
+    width: 907px;
+    height: 720px;
+}
+/* Hero Details Section*/
+.Hero_nav{
+    position: absolute;
+    margin-top: 40px;
+}
+.Hero_nav, .Nav_List,.ListAndUser{
+    display: flex;
+}
+.Nav_List{
+    width: 304px;
+    height: 34px;
+}
+.Nav_Brand{
+    width: 115px;
+    height: 36px;
+}
+.Nav_User{
+    width: 107px;
+    height: 46px;
+}
+.Title{
+    width: inherit;
+    height: 270px;
+}
+.Search{
+    width: 90%;
+    height: 56px;
+}
+.Partnership{
+    width: 427px;
+    height: 96px;
+}
+.Hero_Services{
+    display: flex;
+    gap: 16px;
+    margin-left: 32px;
+}
+/* Hero More Details Section*/
+
+/* Nav Bar - - - - - - - - -*/
+.Hero_nav{
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.Nav_List{
+    justify-content: space-around;
+}
+.Nav_item{
+    color: #00437a;
+    font-family: "semibold-lexend";
+    border: #ffffff solid 1px;
+    border-radius: 32px;
+    margin-left: 24px;
+    padding: 16px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    line-height: 0.1;
+    width: fit-content;
+    i{
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 15.5px;
+    }
+}
+.Nav_User{
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 108px;
+    height: 46px;
+    line-height: 2.8;
+    border-radius: 32px;
+    font-family: "semibold-lexend";
+    color: #047857;
+    background-color: #D1FAE5;
+    text-align: center;
+}
+.Hero_Introduction{
+    z-index: -1;
+}
+.Nav_Brand{
+    width: fit-content;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.BrandName{
+    font-size: 16pt;
+    font-family: "bold-lexend";
+}
+/* Home Title - - - - - - - - -*/
+.Hero_Title{
+    margin-top: 110px;
+}
+.Title_Head{
+    color: #1B1C57;
+    font-size: 40pt;
+    line-height: 50px;
+    text-transform:capitalize;
+    font-family: "semibold-lexend";
+}
+.Title_slogan{
+    color: white;
+    text-shadow: 0px 0px 5px #052dcea5;
+}
+.Title_paragraph{
+    color: #626687;
+    line-height: 28px;
+    font-size: 16px;
+    font-family: "regular-lexend";
+}
+.Search{
+    margin-top: 32px;
+    display: flex;
+    border: #E0E3EB 1px solid;
+    border-radius: 32px;
+    width: inherit;
+    padding-left: 12px;
+    align-items: center;
+}
+.Search_input{
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    padding-left: 14px;
+    font-size: 14px;
+}
+.Search_image{
+    width: 25px;
+    height: 25px;
+    padding-left: 15px;
+}
+.Search_button{
+    width: 109px;
+    height: 48px;
+    background-color: #10B981;
+    border-color: transparent;
+    margin-right: 3px;
+    border-radius: 32px;
+    color: white;
+    font-family: "semibold-lexend";
+}
+.Partnership{
+    margin-top: 32px;
+}
+.Partnership__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.Partnership__text{
+    color: #888B97;
+    font-family: "regular-lexend";
+}
+.Partnerships .Partnerships_Details{
+    opacity: 0;
+    transition: 1s all;
+    transform: translate(-1000px,0px);
+}
+.Partnerships:hover .Partnerships_Details{
+    transform: translate(13px,0px);
+    opacity:1;
+
+}
+/* Home Introduction - - - - - - - - - */
+.Hero-Image{
+    width: inherit;
+    height: inherit;
+}
+.Hero_Services{
+    margin-top: -140px;
+}
+.Service{
+    display: flex;
+    height: 104px;
+    background-color: white;
+    border-radius: 32px;
+}
+.Service_Customers{
+    display: flex;
+    align-items: center;
+}
+.Service_Customers img:nth-child(2){
+    margin-left: -80px;
+}
+.Service_Customers img:nth-child(3){
+    margin-left: -80px;
+}
+.Customer_image{
+    border-radius: 50%;
+}
+.information_title{
+    font-family: "semibold-lexend";
+    color: #1B1C57;
+    font-size: 16px;
+}
+.information_description{
+    color: #68799F;
+    font-family: "regular-lexend";
+    font-size: 12px;
+    width: 152px;
+    height: 40px;
+}
+/* Hero Hovers & Transitions Section*/
+.Nav_item{
+    transition: 0.75s all;
+    cursor: pointer;
+}
+.Nav_item:hover{
+    backdrop-filter: blur(0px);
+}
+.Nav_User{
+transition: all 0.75s;
+}
+.Nav_User:hover{
+    background-color: #eafad1;
+    color: #68799F;
+}
+.BrandName{
+    transition: 1s all;
+    cursor: pointer;
+}
+.BrandName:hover{
+    margin-left: 50px;
+    transform: scale(1.5);
+}
+.Search_image{
+    transition: all 0.85s;
+}
+.Search_image:hover{
+    transform: rotate(360deg);
+}
+.Search_input:focus{
+    outline: none;
+    border: none;
+}
+.Search_button{
+    transition: all 0.75s;
+    cursor: pointer;
+}
+.Search_button:hover{
+    background-color: #047857;
+}
