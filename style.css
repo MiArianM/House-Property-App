@@ -115,7 +115,7 @@ a{
     height: 36px;
 }
 .Nav_User{
-    width: 107px;
+    width: 108px;
     height: 46px;
 }
 .Title{
@@ -137,6 +137,7 @@ a{
 /* Hero More Details Section*/
 
 /* Nav Bar - - - - - - - - -*/
+    /* Default Nav Bar ----------*/
 .Hero_nav{
     justify-content: space-between;
     align-items: center;
@@ -148,13 +149,14 @@ a{
 .Nav_item{
     color: #00437a;
     font-family: "semibold-lexend";
+    font-size: 14px;
     border: #ffffff solid 1px;
     border-radius: 32px;
     margin-left: 24px;
     padding: 16px;
     backdrop-filter: blur(10px);
     text-align: center;
-    line-height: 0.1;
+    line-height: 0;
     width: fit-content;
     i{
         font-size: 10px;
@@ -166,9 +168,8 @@ a{
 .Nav_User{
     margin-top: 5px;
     margin-left: 80px;
-    width: 108px;
-    height: 46px;
-    line-height: 2.8;
+    line-height: 3;
+    font-size: 14px;
     border-radius: 32px;
     font-family: "semibold-lexend";
     color: #047857;
@@ -188,6 +189,94 @@ a{
     font-size: 16pt;
     font-family: "bold-lexend";
 }
+    /* Burger Nav Bar ----------*/
+.Burger_Menu{
+    width: 35px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+  }
+  .Burger_Menu span{
+    background-color:#FFF;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  }
+  .Burger_Menu span:nth-child(1){
+    width: 100%;
+    height:  4px;
+    display: block;
+    top: 0px;
+    right: 0px;
+  }
+  .Burger_Menu span:nth-child(2){
+    width: 100%;
+    height:  4px;
+    display: block;
+    top: 13px;
+    right: 0px;
+  }
+  .Burger_Menu span:nth-child(3){
+    width: 100%;
+    height:  4px;
+    display: block;
+    bottom: 0px;
+    right: 0px;
+  }
+  .Burger_Menu:not(.open):hover span:nth-child(1){
+    width: 100%;
+    height:  4px;
+    display: block;
+    top: -2px;
+    right: 0px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  }
+  .Burger_Menu:not(.open):hover span:nth-child(2){
+    width: 100%;
+    height:  4px;
+    display: block;
+    top: 13px;
+    right: 0px;
+    transition: .4s cubic-bezier(.8, .5, .2, 1.4);
+  }
+  .Burger_Menu:not(.open):hover span:nth-child(3){
+    width: 100%;
+    height:  4px;
+    display: block;
+    bottom: -2px;
+    right: 0px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  }
+  .Burger_Menu.open {
+    transform: rotate(90deg);
+  }
+  .Burger_Menu.open span:nth-child(1){
+    right:3px;
+    top: 12px;
+    width: 30px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    transform: rotate(90deg);
+    transition-delay: 150ms;
+  }
+  .Burger_Menu.open span:nth-child(2){
+    right:2px;
+    top: 20px;
+    width: 20px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    transform: rotate(45deg);
+    transition-delay: 50ms;
+  }
+  .Burger_Menu.open span:nth-child(3){
+    right:14px;
+    top: 20px;
+    width: 20px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    transform: rotate(-45deg);
+    transition-delay: 100ms;
+  }
+
 /* Home Title - - - - - - - - -*/
 .Hero_Title{
     margin-top: 110px;
@@ -359,11 +448,49 @@ transition: all 0.75s;
 .Search_button:hover{
     background-color: #047857;
 }
-/* Hero Responsiveness*/
+/*-------------------------- Hero Responsiveness*/
 
 /* Hamburger Menu*/
-
-
+    @media only screen and (max-width:660px){
+        .Hero_nav{
+            display: none;
+        }
+        .Burger_Menu{
+            display: inline-block;
+        }
+    }
+    @media only screen and (max-width:730px){
+        .Nav_item{
+            font-size: 12px;
+            line-height: 0;
+            padding: 12px;
+            margin-left: 0;
+        }
+        .Nav_item i {
+            margin: -3.5px;
+        }
+        .Nav_User{
+            margin-left: 0;
+            font-size: 16px;
+            line-height: 2.5;
+        }
+    }
+    @media only screen and (max-width:950px){
+        .Hero-Image{
+            width: 105%;
+            margin-left: -5rem;
+        }
+    }
+    @media only screen and (max-width : 425px){
+        .Hero_Services{
+            margin-left: -40px;
+        }
+    }
+    @media only screen and (max-width : 345px){
+        .Hero_Services{
+            margin-left: -40px;
+        }
+    }
     @media only screen and (max-width: 1100px){
         .Hero_content{
             flex-direction: column;
@@ -384,6 +511,12 @@ transition: all 0.75s;
         }
         .Partnership__list{
             justify-content: center;
+        }
+    }
+    @media only screen and (max-width:400px){
+        .Partnership__list{
+            justify-content: left;
+            margin-left: 2rem;
         }
     }
     @media only screen and (max-width: 495px){
