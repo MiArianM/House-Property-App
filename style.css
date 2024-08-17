@@ -450,15 +450,47 @@ transition: all 0.75s;
 }
 /*-------------------------- Hero Responsiveness*/
 
-/* Hamburger Menu*/
-    @media only screen and (max-width:660px){
+@media only screen and (max-width : 345px){
+    .Hero_Services{
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width:400px){
+    .Partnership__list{
+        justify-content: left;
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width : 425px){
+    .Hero_Services{
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width: 448px){
+    .Partnership__list{
+        flex-wrap: wrap;
+        width: 314px ;
+    }
+    .Hero_Introduction{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 495px){
+    .Partnership__list{
+        width: 314px ; 
+    }
+    .Search_input{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:660px){
         .Hero_nav{
             display: none;
         }
         .Burger_Menu{
             display: inline-block;
         }
-    }
+}
     @media only screen and (max-width:730px){
         .Nav_item{
             font-size: 12px;
@@ -479,16 +511,6 @@ transition: all 0.75s;
         .Hero-Image{
             width: 105%;
             margin-left: -5rem;
-        }
-    }
-    @media only screen and (max-width : 425px){
-        .Hero_Services{
-            margin-left: -40px;
-        }
-    }
-    @media only screen and (max-width : 345px){
-        .Hero_Services{
-            margin-left: -40px;
         }
     }
     @media only screen and (max-width: 1100px){
@@ -513,26 +535,4 @@ transition: all 0.75s;
             justify-content: center;
         }
     }
-    @media only screen and (max-width:400px){
-        .Partnership__list{
-            justify-content: left;
-            margin-left: 2rem;
-        }
-    }
-    @media only screen and (max-width: 495px){
-        .Partnership__list{
-            width: 314px ; 
-        }
-        .Search_input{
-            font-size: 10px;
-        }
-    }
-    @media only screen and (max-width: 448px){
-        .Partnership__list{
-            flex-wrap: wrap;
-            width: 314px ;
-        }
-        .Hero_Introduction{
-            margin-top: 100px;
-        }
-    }
+
