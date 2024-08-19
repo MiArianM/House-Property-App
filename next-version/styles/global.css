@@ -1,166 +1,122 @@
-.slide-container {
-  max-width: 1420px;
+/* General */
+@font-face {
+  font-family: "semibold-lexend";
+  src: url(../src/font/Lexend-SemiBold.ttf);
+}
+@font-face {
+  font-family: "medium-lexend";
+  src: url(../src/font/Lexend-Medium.ttf);
+}
+@font-face {
+  font-family: "regular-lexend";
+  src: url(../src/font/Lexend-Regular.ttf);
+}
+@font-face {
+  font-family: "bold-lexend";
+  src: url(../src/font/Lexend-Bold.ttf);
+}
+.container{
   width: 100%;
-  padding: 40px 0;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 54rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 72rem;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 96rem;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 114rem;
+  }
+}
+@media (max-width: 1400px) {
+  .container {
+    width: 137rem;
+  }
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  direction: ltr;
 }
 
-.slide-content {
-  margin: 0 40px;
-  overflow: hidden;
-  border-radius: 25px;
-}
-
-.card {
-  border-radius: 35px;
-  background-color: #fff;
-  border-right: 1px solid rgba(138, 138, 138, 0.276);
-
-}
-
-.image-content,
-.card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 14px;
-}
-
-.image-content {
-  position: relative;
-  row-gap: 5px;
-  padding: 25px 0;
-}
-
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
   height: 100%;
-  width: 100%;
-  background-color: #ffffff00;
-  border-radius: 25px 25px 0 25px;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
 }
+::placeholder{
+  color: #888B97;
+  font-family: "medium-lexend";
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* Hero */
+.Hero{
+  width: inherit;
+  min-height: 720px;
+}
+            /* slider setup */
 
-.overlay::before,
-.overlay::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #ffffff00;
-}
-
-.overlay::after {
-  border-radius: 0 25px 0 0;
-  background-color: #ffffff;
-}
-
-.card-image {
-  position: relative;
-  height: 300px;
-  width: 250px;
-  border-radius: 10%;
-  padding: 5px;
-}
-
-.card-image .card-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8%;
-}
-.badge{
-    margin-top: -40px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-.badge>.badge_text{
-    padding: 4px 16px;
-    border-radius: 32px;
-}
-.badge>.popular{
-    color: #EF4444;
-    background-color: #FEE2E2;
-}
-.badge>.new_house{
-    color: #1D4ED8;
-    background-color: #DBEAFE;
-}
-.badge>.best_deals{
-    color: #047857;
-    background-color: #D1FAE5;
-}
-.badge>.star{
-    color: #782d04;
-    background-color: #f3fad1;
-}
-.name {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
-}
-.price{
-    color: #3C4563;
-    font-size: 20px;
-}
-.description {
-  font-size: 14px;
-  color: #707070;
-  text-align: center;
-}
-
-.ownerinfo{
-    margin-bottom: 40px;
-    display: flex;
-    align-items: flex-end;
-    gap: 20px;
-    line-height: 0.7;
-}
-.owner_name{
-    color: #0E1735;
-    font-weight: 100;
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 15px;
-
-}
-.owner_location{
-    color: #888B97;
-    font-size: 14px;
-    text-align: left;
-}
-.swiper-navBtn {
+.Hero .swiper-button-next,.swiper-button-prev{
   color: #6e93f7;
   transition: color 0.3s ease;
 }
-
-.swiper-navBtn:hover {
-  color: #4070f4;
+.Hero .swiper-button-next:hover,.swiper-button-prev:hover{
+  color: #70f440;
 }
-
-.swiper-navBtn::before,
-.swiper-navBtn::after {
-  font-size: 35px;
-}
-
-
-.swiper-pagination-bullet {
+  
+.Hero .swiper_pagination_bullet {
   background-color: #6e93f7;
   opacity: 1;
 }
 
-.swiper-pagination-bullet-active {
+.Hero .swiper_pagination_bullet-active {
   background-color: #4070f4;
 }
+            /* badge setup */
 
-@media screen and (max-width: 768px) {
-  .slide-content {
-    margin: 0 10px;
-  }
+.popular{
+  color: #EF4444;
+  background-color: #FEE2E2;
+  padding: 4px;
 
-  .swiper-navBtn {
-    display: none;
-  }
+}
+.new_house{
+  color: #1D4ED8;
+  background-color: #DBEAFE;
+  padding: 4px;
+
+}
+.best_deals{
+  color: #047857;
+  background-color: #D1FAE5;
+  padding: 4px;
+
+}
+.star{
+  color: #782d04;
+  background-color: #f3fad1;
+  padding: 4px;
+
 }
