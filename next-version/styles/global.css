@@ -17,30 +17,32 @@
 }
 .container{
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 35px;
   padding-right: 35px;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .container {
     width: 54rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 72rem;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .container {
     width: 96rem;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 114rem;
   }
 }
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
   .container {
     width: 137rem;
   }
@@ -64,12 +66,41 @@ body, html {
 ::placeholder{
   color: #888B97;
   font-family: "medium-lexend";
+  font-size: 1.25rem;
 }
+@media only screen and (max-width: 495px){
+  .Hero ::placeholder{
+      font-size: 1rem !important;
+  }}
 li{
   list-style: none;
 }
 a{
   text-decoration: none;
+}
+/* Background - Effects */
+
+.background_blur1 {
+  position: absolute;
+  top: -102px;
+  left: -173px;
+  width: 438px;
+  height: 494px;
+  background: radial-gradient(circle, #82F7FF, rgba(255, 255, 255, 0));
+  filter: blur(90px);
+  z-index: -1;
+  border-bottom-right-radius: 1000px;
+}
+.background_blur2 {
+  position: absolute;
+  top: -152px;
+  left: 100px;
+  width: 494px;
+  height: 494px;
+  background: radial-gradient(circle, #82FFD2, rgba(255, 255, 255, 0));
+  filter: blur(150px);
+  z-index: -1;
+  border-bottom-right-radius: 2000px;
 }
 /* Hero */
 .Hero{
@@ -118,5 +149,5 @@ a{
   color: #782d04;
   background-color: #f3fad1;
   padding: 4px;
-
 }
+
