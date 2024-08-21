@@ -9,6 +9,7 @@
     min-width: inherit;
     min-height: inherit;
     flex-wrap: nowrap; /* into wrap in media Qu*/
+    margin-top: -50px;
 }
 .Hero_Title{
     max-width: 100%;
@@ -20,8 +21,8 @@
 }
 /* Hero Details Section*/
 .Hero_nav{
-    position: absolute;
-    margin-top: 40px;
+    position: relative;
+    top: 20px;
 }
 .Hero_nav, .Nav_List,.ListAndUser{
     display: flex;
@@ -631,7 +632,7 @@
       color: #0E1735;
       font-weight: 100;
       font-size: 18px;
-      text-align: center;
+      text-align: left;
       margin-bottom: 18px;
       font-family: "medium-lexend";
 

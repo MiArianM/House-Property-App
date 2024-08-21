@@ -21,6 +21,7 @@
   margin-right: auto;
   padding-left: 35px;
   padding-right: 35px;
+  margin-top: -990px;
 }
 @media (min-width: 576px) {
   .container {
@@ -96,7 +97,7 @@ a{
 /* Background - Effects */
 
 .background_blur1 {
-  position: absolute;
+  position: relative;
   top: -102px;
   left: -173px;
   width: 438px;
@@ -107,8 +108,8 @@ a{
   border-bottom-right-radius: 1000px;
 }
 .background_blur2 {
-  position: absolute;
-  top: -152px;
+  position: relative;
+  top: -552px;
   left: 100px;
   width: 494px;
   height: 494px;
