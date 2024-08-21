@@ -1,6 +1,7 @@
 export const Trend_Houses = [
   {
     name: "Roselands House",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
@@ -14,6 +15,7 @@ export const Trend_Houses = [
   },
   {
     name: "Woodlandside",
+    type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/RZF4Qk7C/Pent-House.jpg",
@@ -27,6 +29,7 @@ export const Trend_Houses = [
   },
   {
     name: "The Old Lighthouse",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/s2W1dMT0/Villa1.jpg",
@@ -40,6 +43,7 @@ export const Trend_Houses = [
   },
   {
     name: "Cosmo's House",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/FR9KhBvz/pexels-athena-2972969.jpg",
@@ -53,6 +57,7 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl:
@@ -67,6 +72,7 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/R0vmtJDb/pexels-ibidsy-5524205.jpg",
@@ -80,6 +86,7 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl:
@@ -94,6 +101,7 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/TYycL91y/pexels-pixabay-280229.jpg",
@@ -107,6 +115,7 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
     imageUrl: "https://i.postimg.cc/FRM0jt77/pexels-pixabay-259950.jpg",
@@ -116,6 +125,35 @@ export const Trend_Houses = [
       pic: "https://images.unsplash.com/photo-1711900922350-10523fb0b268?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHllbGxvdyUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
       name: "Saeid kaviani",
       location: "Kermanshah",
+    },
+  },
+  {
+    name: "Mohamed Yousef",
+    type: "apartment",
+    description:
+      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
+    imageUrl: "https://i.postimg.cc/fyqbLd46/new-File-11.avif",
+    price: "29.000.000",
+    badge: "star",
+    owner: {
+      pic: "https://i.postimg.cc/jjYSLK9d/a-girl-s-face-with-a-beautiful-smile-a-female-avatar-for-a-website-and-social-network-vector.jpg",
+      name: "Somaye Ahmadi",
+      location: "JANAT Abad",
+    },
+  },
+  {
+    name: "Mohamed Yousef",
+    type: "apartment",
+    description:
+      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
+    imageUrl:
+      "https://i.postimg.cc/ZYwnjG9V/What-are-penthouses-and-how-popular-are-they-in-India-FB-1200x700-compressed.jpg",
+    price: "29.000.000",
+    badge: "star",
+    owner: {
+      pic: "https://i.postimg.cc/MG0KBN20/c04b017b6b9d1c189e15e6559aeb3ca8.png",
+      name: "Danial Hassanvand",
+      location: "uNDErGround",
     },
   },
 ];
