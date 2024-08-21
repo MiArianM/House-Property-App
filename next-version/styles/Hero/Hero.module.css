@@ -503,6 +503,10 @@
     background-color: #3bbb79;
     color: white;
 }
+.activated:hover{
+    background-color: #3bbb79;
+    color: white;
+}
 .activated img{
     filter: opacity(100%);
 }
