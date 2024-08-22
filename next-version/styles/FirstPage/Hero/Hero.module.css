@@ -13,6 +13,7 @@
 }
 .Hero_Title{
     max-width: 100%;
+    margin-right: 20px;
     min-height: 446px;
 }
 .Hero_Introduction{
@@ -51,9 +52,11 @@
     height: inherit;
 }
 .Hero_Services{
+    width: fit-content;
     display: flex;
     gap: 16px;
     margin-left: 32px;
+    margin-right: 80px;
 }
 /* Hero More Details Section*/
 
@@ -332,6 +335,7 @@
     align-items: center;
     gap: 32px;
     min-height: 80px;
+    margin-right: 40px;
 }
 .Partnership__text{
     color: #888B97;
@@ -373,7 +377,9 @@
     margin-top: -140px;
 }
 .Service{
+    max-width: fit-content;
     display: flex;
+    flex-wrap: wrap;
     height: 104px;
     background-color: white;
     border-radius: 32px;
@@ -444,6 +450,9 @@
     background-color: #047857;
 }
 /* slider section*/
+.swiper{
+    margin-right: 40px !important;
+}
 .slider_head{
     display: flex;
     width: 100%;
@@ -455,9 +464,7 @@
     gap: 32px;
     flex-wrap: wrap;
     justify-content: center;
-}
-.Title_info{
-    align-self: flex-start !important;
+    margin-right: 40px;
 }
 .home_name{
     font-size: 18px;
@@ -651,24 +658,32 @@
 /*-------------------------- Hero Responsiveness*/
 
 @media only screen and (max-width : 345px){
-    .Hero_Services{
-        margin-left: -40px;
-    }
     .Hero_Title{
         margin-left: 7% !important;
     }
 }
 @media only screen and (max-width:400px){
-    .Partnership__list{
-        justify-content: left;
-    }
+
   .Title_Head{
     font-size: 36px;
   }
 }
-@media only screen and (max-width : 425px){
-    .Hero_Services{
-        margin-left: -40px;
+@media only screen and (max-width: 432px){
+    .Service{
+        height: fit-content;
+        margin-top: -80px;
+        justify-content: center;
+        max-width: 300px;
+
+    }
+    .information_title{
+        font-size: 28px;
+        margin: 0 !important;
+
+    }
+    .information_description{
+        font-size: 16px;
+        width: fit-content;
     }
 }
 @media only screen and (max-width: 448px){
@@ -677,13 +692,11 @@
     }
 }
 @media only screen and (max-width: 495px){
+   .Hero_Services{
+    margin-left: 0;
+   }
     .Partnership__list{
         flex-wrap: wrap;
-        width: 314px ;
-        justify-content: left !important;
-    }
-    .Partnership__list{
-        width: 314px ; 
     }
     .Search_input{
         font-size: 10px;

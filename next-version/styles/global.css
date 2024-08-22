@@ -79,20 +79,6 @@ li{
 a{
   text-decoration: none;
 }
-.onTitle{
-  display: flex;
-  align-items: center;
-}
-.onTitle_text{
-  color: #F59E0B;
-  font-family: "medium-lexend";
-}
-.onTitle_line{
-  border: 0.5px solid #F59E0B;
-  width: 32px;
-  margin: 0 !important;
-  margin-right: 8px !important;
-}
 /* Background - Effects */
 
 .background_blur1 {
@@ -151,6 +137,11 @@ a{
   width: inherit;
   min-height: 720px;
 }
+@media (max-width: 525px) {
+  .swiper  {
+    margin-right: 50px !important;
+  }
+}
             /* badge setup */
 
 .popular{
@@ -176,11 +167,66 @@ a{
   background-color: #f3fad1;
   padding: 4px;
 }
-
+/* Titles of Sections */
+.onTitle{
+  display: flex;
+  align-items: center;
+}
+.onTitle_text{
+  color: #F59E0B;
+  font-family: "medium-lexend";
+}
+.onTitle_line{
+  border: 0.5px solid #F59E0B;
+  width: 32px;
+  margin: 0 !important;
+  margin-right: 8px !important;
+}
+.Title_info{
+  align-self: flex-start !important;
+}
 .sec_info{
   color: #1B1C57;
   font-family: "semibold-lexend";
   font-size: 32px;
   margin: 0 !important;
   margin-left: 38px !important;
+  margin-right: 35px !important;
+
+  max-width: fit-content;
 }
+.sec_description{
+  margin-left: 38px !important;
+  margin-right: 40px;
+  color: #626687;
+  font-family: "regular-lexend";
+  font-weight: 100;
+  font-size: 16px;
+  max-width: 420px;
+  line-height: 28px;
+  filter: opacity(0.75);
+}
+/* Grid House Details */
+.House-grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  max-width: 200px;
+}
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+/* Center the fifth item */
+.grid-item:nth-child(5) {
+  grid-column: 1 / span 2;
+  justify-self: center;
+  align-self: center;
+}
+

@@ -24,7 +24,7 @@ function HouseSlider() {
   return (
     <div className={`${Hero_Styles.slide_container}`}>
       <div className={Hero_Styles.slider_head}>
-        <div className={Hero_Styles.Title_info}>
+        <div className="Title_info">
           <div className="onTitle">
             <hr className="onTitle_line" />
             <h1 className="onTitle_text">Our Recommendation</h1>
