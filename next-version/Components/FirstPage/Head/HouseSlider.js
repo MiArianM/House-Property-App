@@ -3,10 +3,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import Avatar from "@mui/material/Avatar";
-import { UserContext } from "../context";
-import { Trend_Houses } from "../Data";
+import { UserContext } from "../../context";
+import { Trend_Houses } from "../../Data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
@@ -15,72 +15,72 @@ import {
 function HouseSlider() {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
-  const styles = useContext(UserContext);
-  const [filter, setFilter] = useState("House"); // State to store the selected filter
+  const Hero_Styles = useContext(UserContext);
+  const [filter, setFilter] = useState("House");
   const filteredHouses =
     filter === "House"
       ? Trend_Houses
       : Trend_Houses.filter((house) => house.type === filter);
   return (
-    <div className={`${styles.slide_container}`}>
-      <div className={styles.slider_head}>
-        <div className={styles.Title_info}>
+    <div className={`${Hero_Styles.slide_container}`}>
+      <div className={Hero_Styles.slider_head}>
+        <div className={Hero_Styles.Title_info}>
           <div className="onTitle">
             <hr className="onTitle_line" />
             <h1 className="onTitle_text">Our Recommendation</h1>
           </div>
           <h2 className="sec_info">Featured House</h2>
         </div>
-        <div className={styles.home_type_list}>
+        <div className={Hero_Styles.home_type_list}>
           <div
             onClick={() => setFilter("House")}
-            className={`${styles.home_type} ${
-              filter === "House" ? styles.activated : ""
+            className={`${Hero_Styles.home_type} ${
+              filter === "House" ? Hero_Styles.activated : ""
             }`}
           >
             <img
               src="https://i.postimg.cc/7ZWLD017/cottage.png"
               alt="House_Type"
             />
-            <span className={styles.home_name}>House</span>
+            <span className={Hero_Styles.home_name}>House</span>
           </div>
           <div
             onClick={() => setFilter("villa")}
-            className={`${styles.home_type} ${
-              filter === "villa" ? styles.activated : ""
+            className={`${Hero_Styles.home_type} ${
+              filter === "villa" ? Hero_Styles.activated : ""
             }`}
           >
             <img
               src="https://i.postimg.cc/pTNX5v6L/house.png"
               alt="House_Type"
             />
-            <span className={styles.home_name}>Villa</span>
+            <span className={Hero_Styles.home_name}>Villa</span>
           </div>
           <div
             onClick={() => setFilter("apartment")}
-            className={`${styles.home_type} ${
-              filter === "apartment" ? styles.activated : ""
+            className={`${Hero_Styles.home_type} ${
+              filter === "apartment" ? Hero_Styles.activated : ""
             }`}
           >
             <img
               src="https://i.postimg.cc/xdN1d8gZ/residential.png"
               alt="House_Type"
             />
-            <span className={styles.home_name}>Apartment</span>
+            <span className={Hero_Styles.home_name}>Apartment</span>
           </div>
         </div>
-        <div className={styles.sliderbuttons}>
-          <div ref={navigationPrevRef} className={styles.favRight}>
+        <div className={Hero_Styles.sliderbuttons}>
+          <div ref={navigationPrevRef} className={Hero_Styles.favRight}>
             <FontAwesomeIcon icon={faChevronLeft} />
           </div>
-          <div ref={navigationNextRef} className={styles.favLeft}>
+          <div ref={navigationNextRef} className={Hero_Styles.favLeft}>
             <FontAwesomeIcon icon={faChevronRight} />
           </div>
         </div>
       </div>
 
       <Swiper
-        className={styles.slide_content}
+        className={Hero_Styles.slide_content}
         slidesPerView={5}
         navigation={{
           nextEl: navigationNextRef.current,
@@ -101,19 +101,19 @@ function HouseSlider() {
       >
         {filteredHouses.map((card, index) => (
           <SwiperSlide key={index} className="swiper-slide">
-            <div className={styles.card}>
-              <div className={styles.image_content}>
-                <span className={styles.overlay}></span>
-                <div className={styles.card_image}>
+            <div className={Hero_Styles.card}>
+              <div className={Hero_Styles.image_content}>
+                <span className={Hero_Styles.overlay}></span>
+                <div className={Hero_Styles.card_image}>
                   <img
                     src={card.imageUrl}
                     alt="House-Image"
-                    className={styles.card_img}
+                    className={Hero_Styles.card_img}
                   />
                   {card.badge && (
-                    <div className={styles.badge}>
+                    <div className={Hero_Styles.badge}>
                       <span
-                        className={`${styles.badge_text} ${card.badge
+                        className={`${Hero_Styles.badge_text} ${card.badge
                           .toLocaleLowerCase()
                           .replace(" ", "_")}`}
                       >
@@ -131,19 +131,21 @@ function HouseSlider() {
                   )}
                 </div>
               </div>
-              <div className={styles.card_content}>
-                <h2 className={styles.name}>{card.name}</h2>
-                <p className={styles.description}>{card.description}</p>
-                <span className={styles.price}>$ {card.price}</span>
-                <div className={styles.ownerinfo}>
+              <div className={Hero_Styles.card_content}>
+                <h2 className={Hero_Styles.name}>{card.name}</h2>
+                <p className={Hero_Styles.description}>{card.description}</p>
+                <span className={Hero_Styles.price}>$ {card.price}</span>
+                <div className={Hero_Styles.ownerinfo}>
                   <Avatar
-                    className={styles.card_avatar}
+                    className={Hero_Styles.card_avatar}
                     alt="owner-photo"
                     src={card.owner.pic}
                   />
                   <div>
-                    <h5 className={styles.owner_name}>{card.owner.name}</h5>
-                    <span className={styles.owner_location}>
+                    <h5 className={Hero_Styles.owner_name}>
+                      {card.owner.name}
+                    </h5>
+                    <span className={Hero_Styles.owner_location}>
                       {card.owner.location}
                     </span>
                   </div>

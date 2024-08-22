@@ -1,6 +1,14 @@
 export const Trend_Houses = [
   {
     name: "Roselands House",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -15,6 +23,14 @@ export const Trend_Houses = [
   },
   {
     name: "Woodlandside",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -29,6 +45,14 @@ export const Trend_Houses = [
   },
   {
     name: "The Old Lighthouse",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -43,6 +67,14 @@ export const Trend_Houses = [
   },
   {
     name: "Cosmo's House",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -57,6 +89,14 @@ export const Trend_Houses = [
   },
   {
     name: "Primrose Lodge",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -72,6 +112,14 @@ export const Trend_Houses = [
   },
   {
     name: "Meadow View",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -86,6 +134,14 @@ export const Trend_Houses = [
   },
   {
     name: "TooTyLand",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -101,6 +157,14 @@ export const Trend_Houses = [
   },
   {
     name: "Mohamed Yousef",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "villa",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -115,6 +179,14 @@ export const Trend_Houses = [
   },
   {
     name: "White Lodge",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -129,6 +201,14 @@ export const Trend_Houses = [
   },
   {
     name: "Seaways",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
@@ -143,6 +223,14 @@ export const Trend_Houses = [
   },
   {
     name: "Hamster's House",
+    House_Details: {
+      bedrooms: "",
+      bathroom: "",
+      carport: "",
+      floor: "",
+      width: "",
+      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+    },
     type: "apartment",
     description:
       "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",

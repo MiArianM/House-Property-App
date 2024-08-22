@@ -88,8 +88,7 @@ a{
   font-family: "medium-lexend";
 }
 .onTitle_line{
-  background-color: #F59E0B;
-  color: #F59E0B;
+  border: 0.5px solid #F59E0B;
   width: 32px;
   margin: 0 !important;
   margin-right: 8px !important;
@@ -117,6 +116,35 @@ a{
   filter: blur(150px);
   z-index: -1;
   border-bottom-right-radius: 2000px;
+}
+.background_blur3 {
+  float: right;
+  position: relative;
+  top: -102px;
+  width: 438px;
+  height: 494px;
+  background: radial-gradient(circle, #FF9882, rgba(255, 255, 255, 0));
+  filter: blur(120px);
+  z-index: -1;
+  border-bottom-right-radius: 1000px;
+}
+.background_blur4 {
+  float: right;
+  position: relative;
+  top: -82px;
+  right: -740px;
+  width: 494px;
+  height: 494px;
+  background: radial-gradient(circle, #FFFA82, rgba(255, 255, 255, 0));
+  filter: blur(140px);
+  z-index: -1;
+  border-bottom-right-radius: 2000px;
+}
+@media (max-width: 931px) {
+  .background_blur4  {
+  top: -502px;
+  right: -300px;
+  }
 }
 /* Hero */
 .Hero{
