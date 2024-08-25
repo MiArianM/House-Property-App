@@ -245,3 +245,20 @@ export const Trend_Houses = [
     },
   },
 ];
+export const subImages = [
+  {
+    id: 1,
+    src: "https://i.postimg.cc/W3Gp3d9m/pexels-pixabay-276534.jpg",
+    alt: "Living Room",
+  },
+  {
+    id: 2,
+    src: "https://i.postimg.cc/g272BFXh/pexels-heyho-6033590.jpg",
+    alt: "Decor",
+  },
+  {
+    id: 3,
+    src: "https://i.postimg.cc/hjRJGW0m/pexels-heyho-7060814.jpg",
+    alt: "Furniture",
+  },
+];

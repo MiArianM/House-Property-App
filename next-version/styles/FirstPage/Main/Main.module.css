@@ -1,3 +1,6 @@
+.Tour_container{
+  display: flex;
+}
 
 .TourHouse_info{
   margin-left: 38px;

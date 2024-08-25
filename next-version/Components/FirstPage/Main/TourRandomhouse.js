@@ -1,18 +1,31 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { UserContext } from "../../context";
-import { Trend_Houses } from "../../Data";
+import { Trend_Houses, subImages } from "../../Data";
 import { Avatar } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 function TourRandomhouse() {
   const [touringHouse, setTouringHouse] = useState();
   const Main_Styles = useContext(UserContext);
+  const [selectedImage, setSelectedImage] = useState(1);
+  const subImagesContainerRef = useRef(null);
   useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
     setTouringHouse(
       () => Trend_Houses[Math.floor(Math.random() * Trend_Houses.length)]
     );
   }, []);
-
+  const handleImageClick = (id) => {
+    setSelectedImage(id);
+  };
+  const handleClickOutside = (event) => {
+    if (
+      subImagesContainerRef.current &&
+      !subImagesContainerRef.current.contains(event.target)
+    ) {
+      setSelectedImage(null);
+    }
+  };
   return (
     <>
       <div className={Main_Styles.Tour_container}>
@@ -90,16 +103,31 @@ function TourRandomhouse() {
                   </div>
                 </div>
               </div>
-              <hr
-                style={{
-                  border: "1px solid #F0F3FD",
-                  maxWidth: "440px",
-                  textAlign: "left",
-                  margin: "0 !important",
-                  marginLeft: "35px",
-                  marginRight: "50px",
-                }}
-              />
+              <div className="house-layout-container mobile">
+                <div className="main-image-container">
+                  <img
+                    src="https://i.postimg.cc/768Yw3NY/pexels-kaboompics-6343.jpg"
+                    alt="Main House"
+                    className="main-image"
+                  />
+                  <div className="play-button"></div>
+                </div>
+                <div className="sub-images-container">
+                  {subImages.map((image) => (
+                    <div
+                      key={image.id}
+                      className={`sub-image-item ${
+                        selectedImage === image.id ? "selected" : ""
+                      }`}
+                      ref={subImagesContainerRef}
+                      onClick={() => handleImageClick(image.id)}
+                    >
+                      <img src={image.src} alt={image.alt} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <hr className="tour-desktop" />
               <div className={Main_Styles.ownerinfo}>
                 <Avatar alt="owner-photo" src={touringHouse.owner.pic} />
                 <div>
@@ -117,6 +145,30 @@ function TourRandomhouse() {
               </div>
             </>
           )}
+        </div>
+        <div className="house-layout-container desktop">
+          <div className="main-image-container">
+            <img
+              src="https://i.postimg.cc/768Yw3NY/pexels-kaboompics-6343.jpg"
+              alt="Main House"
+              className="main-image"
+            />
+            <div className="play-button"></div>
+          </div>
+          <div className="sub-images-container">
+            {subImages.map((image) => (
+              <div
+                key={image.id}
+                className={`sub-image-item ${
+                  selectedImage === image.id ? "selected" : ""
+                }`}
+                ref={subImagesContainerRef}
+                onClick={() => handleImageClick(image.id)}
+              >
+                <img src={image.src} alt={image.alt} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
