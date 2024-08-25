@@ -136,11 +136,7 @@ function HouseSlider() {
                 <p className={Hero_Styles.description}>{card.description}</p>
                 <span className={Hero_Styles.price}>$ {card.price}</span>
                 <div className={Hero_Styles.ownerinfo}>
-                  <Avatar
-                    className={Hero_Styles.card_avatar}
-                    alt="owner-photo"
-                    src={card.owner.pic}
-                  />
+                  <Avatar alt="owner-photo" src={card.owner.pic} />
                   <div>
                     <h5 className={Hero_Styles.owner_name}>
                       {card.owner.name}

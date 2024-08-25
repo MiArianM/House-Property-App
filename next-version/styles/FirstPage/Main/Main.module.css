@@ -1,6 +1,4 @@
-.Tour_container{
 
-}
 .TourHouse_info{
   margin-left: 38px;
 }
@@ -8,5 +6,51 @@
     color: #1B1C57;
     font-size: 16px;
     font-family: "medium-lexend";
+}
+.ownerinfo{
+  margin-top: 32px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 0.7;
+  flex-wrap: wrap;
+}
+.owner_name{
+  color: #0E1735;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: "medium-lexend";
+}
+.owner_location{
+  color: #888B97;
+  font-size: 14px;
+  text-align: center;
 
+}
+.contact{
+  background-color: #10B981;
+  padding: 13px;
+  border-radius: 32px;
+  color: white;
+  font-family: "medium-lexend";
+  margin-left: 19px;
+}
+@media (max-width: 570px) {
+  .ownerinfo{
+  width: auto;
+  justify-content: flex-start;
+  }
+  .contact{
+  margin-right: 37px;
+  margin-top: 30px;
+  }
+  .owner_name,.owner_location{
+    margin-left: 20px;
+  }
 }
