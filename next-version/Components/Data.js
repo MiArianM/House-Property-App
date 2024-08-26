@@ -7,7 +7,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/W3Gp3d9m/pexels-pixabay-276534.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/hjRJGW0m/pexels-heyho-7060814.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/g272BFXh/pexels-heyho-6033590.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -29,7 +44,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/W3shCcpN/pexels-designecologist-1005058.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/mkDhZ3FK/pexels-pixabay-276724.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/KzQRyp4n/pexels-solliefoto-298842.jpg",
+        },
+      ],
     },
     type: "apartment",
     description:
@@ -51,7 +81,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/NGzj7HXf/pexels-chaitaastic-1918291.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/L8d4GFvc/pexels-itsterrymag-2635038.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/xTNTs1GG/pexels-kamo11235-667838.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -73,7 +118,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/3w8hH8Gc/pexels-dada-design-240566386-12277216.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/JntWGpP3/pexels-flat-hito-294826-862941.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/g0gWzCqk/pexels-joshsorenson-1714430.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -95,7 +155,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/WzkL7hRh/pexels-fotios-photos-1444416.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/tRZYckpV/pexels-fotografiagmazg-7576096.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/mhWxpBRV/pexels-naimbic-2029682.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -118,7 +193,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/x10j93D5/pexels-heyho-7195554.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/KYjZMcYg/pexels-rafael-nunez-991203-5002428.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/dV4s3ZJY/pexels-serenakoi-4564013.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -140,7 +230,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/x82Dt995/pexels-fotios-photos-1444424.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/FshXSFWs/pexels-heyho-6301177.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/SNVFf03L/pexels-heyho-6585623.jpg",
+        },
+      ],
     },
     type: "apartment",
     description:
@@ -163,7 +268,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/XYZHGTbY/pexels-heyho-6969824.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/5tLspLjc/pexels-naimbic-2029731.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/g2fMvNzq/pexels-tristan-paolo-2664265-4276611.jpg",
+        },
+      ],
     },
     type: "villa",
     description:
@@ -185,7 +305,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/hvjbFd4t/pexels-heyho-7018393.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/kM1vQfw6/pexels-heyho-7018400.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/KjH7m84r/pexels-heyho-7147298.jpg",
+        },
+      ],
     },
     type: "apartment",
     description:
@@ -207,7 +342,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/85Crsg2y/pexels-curtis-adams-1694007-6835122.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/T1LLqqYg/pexels-dropshado-9209422.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/nrysdjC5/pexels-pixabay-209296.jpg",
+        },
+      ],
     },
     type: "apartment",
     description:
@@ -229,7 +379,22 @@ export const Trend_Houses = [
       carport: "1",
       floor: "2",
       width: "100ft",
-      More_Homeinfo: { Homevideo: "", pic1: "", pic2: "" },
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/nL3CywXq/pexels-christa-grover-977018-2121120.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/KjMjgGJ5/pexels-curtis-adams-1694007-11125445.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/MXJT7CLJ/pexels-naimbic-2290740.jpg",
+        },
+      ],
     },
     type: "apartment",
     description:
@@ -245,20 +410,30 @@ export const Trend_Houses = [
     },
   },
 ];
-export const subImages = [
+export const House_Properties = [
   {
-    id: 1,
-    src: "https://i.postimg.cc/W3Gp3d9m/pexels-pixabay-276534.jpg",
-    alt: "Living Room",
+    property: "Bedrooms",
+    icon: "https://i.postimg.cc/mk2wgBbP/bedroom.png",
+    alt: "bedroom",
   },
   {
-    id: 2,
-    src: "https://i.postimg.cc/g272BFXh/pexels-heyho-6033590.jpg",
-    alt: "Decor",
+    property: "Bathroom",
+    icon: "https://i.postimg.cc/rm9jTKL6/bathtub.png",
+    alt: "bathroom",
   },
   {
-    id: 3,
-    src: "https://i.postimg.cc/hjRJGW0m/pexels-heyho-7060814.jpg",
-    alt: "Furniture",
+    property: "Carport",
+    icon: "https://i.postimg.cc/Gt7jBV2q/garage.png",
+    alt: "garage",
+  },
+  {
+    property: "Floor",
+    icon: "https://i.postimg.cc/vByhC5kL/stairs.png",
+    alt: "floor",
+  },
+  {
+    property: "width",
+    icon: "https://i.postimg.cc/tgWDrBS4/arrow.png",
+    alt: "width",
   },
 ];

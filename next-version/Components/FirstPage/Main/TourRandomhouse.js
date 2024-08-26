@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { UserContext } from "../../context";
-import { Trend_Houses, subImages } from "../../Data";
+import { Trend_Houses, House_Properties } from "../../Data";
 import { Avatar } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +14,7 @@ function TourRandomhouse() {
     setTouringHouse(
       () => Trend_Houses[Math.floor(Math.random() * Trend_Houses.length)]
     );
+    console.log(touringHouse);
   }, []);
   const handleImageClick = (id) => {
     setSelectedImage(id);
@@ -45,89 +46,56 @@ function TourRandomhouse() {
               <div className={Main_Styles.TourHouse_info}>
                 <h3 className={Main_Styles.TourHouse_title}>House Detail</h3>
                 <div className="House-grid-container">
-                  <div className="House-item">
-                    <img
-                      className="item-pic"
-                      alt=""
-                      src="https://i.postimg.cc/mk2wgBbP/bedroom.png"
-                    />
-                    <span className="item-name">
-                      <span>{touringHouse.House_Details.bedrooms} </span>
-                      Bedrooms
-                    </span>
-                  </div>
-                  <div className="House-item">
-                    <img
-                      className="item-pic"
-                      alt=""
-                      src="https://i.postimg.cc/rm9jTKL6/bathtub.png"
-                    />
-                    <span className="item-name">
-                      {" "}
-                      <span>{touringHouse.House_Details.bathroom} </span>
-                      Bathrooms
-                    </span>
-                  </div>
-                  <div className="House-item">
-                    <img
-                      className="item-pic"
-                      alt=""
-                      src="https://i.postimg.cc/Gt7jBV2q/garage.png"
-                    />
-                    <span className="item-name">
-                      {" "}
-                      <span>{touringHouse.House_Details.carport} </span>Carpot
-                    </span>
-                  </div>
-                  <div className="House-item">
-                    <img
-                      className="item-pic"
-                      alt=""
-                      src="https://i.postimg.cc/vByhC5kL/stairs.png"
-                    />
-                    <span className="item-name">
-                      {" "}
-                      <span>{touringHouse.House_Details.floor} </span>Floors
-                    </span>
-                  </div>
-                  <div className="House-item">
-                    <img
-                      className="item-pic"
-                      alt=""
-                      src="https://i.postimg.cc/tgWDrBS4/arrow.png"
-                    />
-                    <span className="item-name">
-                      {" "}
-                      <span>{touringHouse.House_Details.width} </span>width
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="house-layout-container mobile">
-                <div className="main-image-container">
-                  <img
-                    src="https://i.postimg.cc/768Yw3NY/pexels-kaboompics-6343.jpg"
-                    alt="Main House"
-                    className="main-image"
-                  />
-                  <div className="play-button"></div>
-                </div>
-                <div className="sub-images-container">
-                  {subImages.map((image) => (
-                    <div
-                      key={image.id}
-                      className={`sub-image-item ${
-                        selectedImage === image.id ? "selected" : ""
-                      }`}
-                      ref={subImagesContainerRef}
-                      onClick={() => handleImageClick(image.id)}
-                    >
-                      <img src={image.src} alt={image.alt} />
+                  {House_Properties.map((property) => (
+                    <div className="House-item">
+                      <img
+                        className="item-pic"
+                        alt={property.alt}
+                        src={property.icon}
+                      />
+                      <span className="item-name">
+                        <span>
+                          {
+                            touringHouse.House_Details[
+                              property.property.toLocaleLowerCase()
+                            ]
+                          }{" "}
+                        </span>
+                        {property.property}
+                      </span>
                     </div>
                   ))}
                 </div>
               </div>
-              <hr className="tour-desktop" />
+              <div
+                className={`${Main_Styles.house_layout_container} ${Main_Styles.mobile}`}
+              >
+                <div className={Main_Styles.main_image_container}>
+                  <img
+                    src={touringHouse.House_Details.Homevideo}
+                    alt="Main-House"
+                    className={Main_Styles.main_image}
+                  />
+                  <div className={Main_Styles.play_button}></div>
+                </div>
+                <div className={Main_Styles.sub_images_container}>
+                  {touringHouse.House_Details.More_Homeinfo.map((image) => (
+                    <div
+                      key={image.id}
+                      className={`${Main_Styles.sub_image_item} ${
+                        selectedImage === image.id
+                          ? `${Main_Styles.selected}`
+                          : ""
+                      }`}
+                      ref={subImagesContainerRef}
+                      onClick={() => handleImageClick(image.id)}
+                    >
+                      <img src={image.src} alt={"sub-images"} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <hr className={Main_Styles.tour_desktop} />
               <div className={Main_Styles.ownerinfo}>
                 <Avatar alt="owner-photo" src={touringHouse.owner.pic} />
                 <div>
@@ -146,30 +114,34 @@ function TourRandomhouse() {
             </>
           )}
         </div>
-        <div className="house-layout-container desktop">
-          <div className="main-image-container">
-            <img
-              src="https://i.postimg.cc/768Yw3NY/pexels-kaboompics-6343.jpg"
-              alt="Main House"
-              className="main-image"
-            />
-            <div className="play-button"></div>
+        {touringHouse && (
+          <div
+            className={`${Main_Styles.house_layout_container} ${Main_Styles.desktop}`}
+          >
+            <div className={Main_Styles.main_image_container}>
+              <img
+                src={touringHouse.House_Details.Homevideo}
+                alt="Main-House"
+                className={Main_Styles.main_image}
+              />
+              <div className={Main_Styles.play_button}></div>
+            </div>
+            <div className={Main_Styles.sub_images_container}>
+              {touringHouse.House_Details.More_Homeinfo.map((image) => (
+                <div
+                  key={image.id}
+                  className={`${Main_Styles.sub_image_item} ${
+                    selectedImage === image.id ? `${Main_Styles.selected}` : ""
+                  }`}
+                  ref={subImagesContainerRef}
+                  onClick={() => handleImageClick(image.id)}
+                >
+                  <img src={image.src} alt="sub-image" />
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="sub-images-container">
-            {subImages.map((image) => (
-              <div
-                key={image.id}
-                className={`sub-image-item ${
-                  selectedImage === image.id ? "selected" : ""
-                }`}
-                ref={subImagesContainerRef}
-                onClick={() => handleImageClick(image.id)}
-              >
-                <img src={image.src} alt={image.alt} />
-              </div>
-            ))}
-          </div>
-        </div>
+        )}
       </div>
     </>
   );
