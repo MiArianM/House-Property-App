@@ -263,3 +263,15 @@ a{
       align-items: center;
     }
   }
+/* Why Us Section */
+.Why-US{
+  margin-top: 120px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.slide-cont{
+  width: 100%;
+  max-width: 1556px;
+}

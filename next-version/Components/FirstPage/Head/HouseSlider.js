@@ -100,7 +100,7 @@ function HouseSlider() {
         }}
       >
         {filteredHouses.map((card, index) => (
-          <SwiperSlide key={index} className="swiper-slide">
+          <SwiperSlide key={index}>
             <div className={Hero_Styles.card}>
               <div className={Hero_Styles.image_content}>
                 <span className={Hero_Styles.overlay}></span>

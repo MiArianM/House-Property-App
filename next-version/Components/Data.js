@@ -437,3 +437,59 @@ export const House_Properties = [
     alt: "width",
   },
 ];
+export const testimonials = [
+  {
+    id: 1,
+    imageUrl:
+      "https://i.postimg.cc/jSn2ny4P/pexels-frans-van-heerden-201846-1438832.jpg",
+    title: "Best! I Got The House I Wanted Through Hounter",
+    description:
+      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+    author: {
+      name: "Dianne Russell",
+      title: "Manager Director",
+      avatar: "https://i.postimg.cc/Gpyt6n86/person3.png",
+    },
+    rating: 4.6,
+  },
+  {
+    id: 2,
+    imageUrl:
+      "https://i.postimg.cc/x8dTfmdk/pexels-helen-alp-46790226-14699953.jpg",
+    title: "Best! I Got The House I Wanted Through Hounter",
+    description:
+      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+    author: {
+      name: "Dianne Russell",
+      title: "Manager Director",
+      avatar: "https://i.postimg.cc/Gpyt6n86/person3.png",
+    },
+    rating: 4,
+  },
+  {
+    id: 3,
+    imageUrl: "https://i.postimg.cc/G2dmfVwx/pexels-lkloeppel-577697.jpg",
+    title: "Best! I Got The House I Wanted Through Hounter",
+    description:
+      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+    author: {
+      name: "Dianne Russell",
+      title: "Manager Director",
+      avatar: "https://i.postimg.cc/rwbzhwmS/person2.png",
+    },
+    rating: 5,
+  },
+  {
+    id: 4,
+    imageUrl: "https://i.postimg.cc/LXD8FDmK/pexels-tobiasbjorkli-2360673.jpg",
+    title: "Best! I Got The House I Wanted Through Hounter",
+    description:
+      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+    author: {
+      name: "Dianne Russell",
+      title: "Manager Director",
+      avatar: "https://i.postimg.cc/XYXpcCVj/person1.png",
+    },
+    rating: 4.8,
+  },
+];
