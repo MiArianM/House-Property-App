@@ -106,7 +106,7 @@ a{
 .background_blur3 {
   float: right;
   position: relative;
-  top: -802px;
+  top: -2102px;
   width: 438px;
   height: 494px;
   background: radial-gradient(circle, #FF9882, rgba(255, 255, 255, 0));
@@ -117,7 +117,7 @@ a{
 .background_blur4 {
   float: right;
   position: relative;
-  top: -682px;
+  top: -1982px;
   right: -740px;
   width: 494px;
   height: 494px;
@@ -128,8 +128,24 @@ a{
 }
 @media (max-width: 931px) {
   .background_blur4  {
-  top: -1302px;
+  top: -2702px;
   right: -300px;
+  }
+}
+@media (max-width: 775px) {
+  .background_blur3  {
+    top: -3302px;
+    }
+  .background_blur4  {
+  top: -3702px;
+  }
+}
+@media (max-width: 400px) {
+  .background_blur3  {
+    top: -2502px;
+    }
+  .background_blur4  {
+  top: -2702px;
   }
 }
 /* Hero */
@@ -141,6 +157,9 @@ a{
   .swiper  {
     margin-right: 50px !important;
   }
+}
+.Hero.Houses{
+  margin-top: 50px;
 }
 /* badge setup */
 
@@ -307,4 +326,8 @@ background-color: #3C4563 !important;
 }
 .sec_info.whyus{
   margin-top: 12px !important;
+}
+/* House Selection  */
+.container.houseselection{
+  margin-top: 0;
 }

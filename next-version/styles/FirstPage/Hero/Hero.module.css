@@ -576,7 +576,6 @@
   
   .overlay::after {
     border-radius: 0 25px 0 0;
-    background-color: #ffffff;
   }
   
   .card_image {
