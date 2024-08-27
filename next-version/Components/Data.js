@@ -448,7 +448,7 @@ export const testimonials = [
     author: {
       name: "Dianne Russell",
       title: "Manager Director",
-      avatar: "https://i.postimg.cc/Gpyt6n86/person3.png",
+      avatar: "https://i.postimg.cc/sxjDfgzN/pexels-davidgomes-4048501.jpg",
     },
     rating: 4.6,
   },
@@ -456,13 +456,14 @@ export const testimonials = [
     id: 2,
     imageUrl:
       "https://i.postimg.cc/x8dTfmdk/pexels-helen-alp-46790226-14699953.jpg",
-    title: "Best! I Got The House I Wanted Through Hounter",
+    title: "Through the Hounter, I can get a house for my self",
     description:
-      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+      "By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!",
     author: {
-      name: "Dianne Russell",
-      title: "Manager Director",
-      avatar: "https://i.postimg.cc/Gpyt6n86/person3.png",
+      name: "Esther Howard",
+      title: "Head of Marketing",
+      avatar:
+        "https://i.postimg.cc/s25VphDL/pexels-divinetechygirl-1181686.jpg",
     },
     rating: 4,
   },
@@ -475,7 +476,7 @@ export const testimonials = [
     author: {
       name: "Dianne Russell",
       title: "Manager Director",
-      avatar: "https://i.postimg.cc/rwbzhwmS/person2.png",
+      avatar: "https://i.postimg.cc/qM7M9qjt/pexels-olly-774095.jpg",
     },
     rating: 5,
   },
@@ -484,11 +485,12 @@ export const testimonials = [
     imageUrl: "https://i.postimg.cc/LXD8FDmK/pexels-tobiasbjorkli-2360673.jpg",
     title: "Best! I Got The House I Wanted Through Hounter",
     description:
-      "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+      "I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!",
     author: {
       name: "Dianne Russell",
       title: "Manager Director",
-      avatar: "https://i.postimg.cc/XYXpcCVj/person1.png",
+      avatar:
+        "https://i.postimg.cc/m262R45m/pexels-spencer-selover-142259-775358.jpg",
     },
     rating: 4.8,
   },
