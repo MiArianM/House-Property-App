@@ -1,5 +1,6 @@
 import React from "react";
 import { apartment, villas } from "../../HouseList";
+import Link from "next/link";
 
 function HouseSelection({ Main_Styles }) {
   return (
@@ -12,13 +13,15 @@ function HouseSelection({ Main_Styles }) {
         <h2 className="sec_info">What Type of House You need ?</h2>
       </div>
       <div className={Main_Styles.houses}>
-        <div className={Main_Styles.fig}>
-          <img src="https://i.postimg.cc/x1YbZMcK/House.png" />
-          <div className={Main_Styles.caption}>
-            <h3>All Houses</h3>
-            <h5>{villas.length + apartment.length} Found !</h5>
+        <Link href="/Houses">
+          <div className={Main_Styles.fig}>
+            <img src="https://i.postimg.cc/x1YbZMcK/House.png" />
+            <div className={Main_Styles.caption}>
+              <h3>All Houses</h3>
+              <h5>{villas.length + apartment.length} Found !</h5>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className={Main_Styles.fig}>
           <img src="https://i.postimg.cc/tRK6hLbv/villa.png" />
           <div className={Main_Styles.caption}>
