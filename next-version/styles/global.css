@@ -164,6 +164,8 @@ a{
 }
 .Hero.Houses{
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 /* badge setup */
 

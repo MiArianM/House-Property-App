@@ -6,6 +6,7 @@ const Dropdown = ({ children, selected, label }) => {
   const Hero_Styles = useContext(UserContext);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
+  console.log(selected);
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
@@ -15,12 +16,16 @@ const Dropdown = ({ children, selected, label }) => {
     }
   };
   const handleclosingmenu = (e) => {
-    e.target.parentElement.parentElement.parentElement.dataset.set ===
-      "price" && e.stopPropagation();
-    e.target.parentElement.parentElement.parentElement.parentElement.dataset
-      .set === "price" && e.stopPropagation();
-    e.target.parentElement.parentElement.parentElement.parentElement
-      .parentElement.dataset.set === "price" && e.stopPropagation();
+    if (e.target.localName === "li") {
+      e.preventDefault();
+    } else {
+      e.target.parentElement.parentElement.parentElement.dataset.set ===
+        "price" && e.stopPropagation();
+      e.target.parentElement.parentElement.parentElement.parentElement.dataset
+        .set === "price" && e.stopPropagation();
+      e.target.parentElement.parentElement.parentElement.parentElement
+        .parentElement.dataset.set === "price" && e.stopPropagation();
+    }
   };
   React.useEffect(() => {
     document.addEventListener("mousedown", closeDropdown);

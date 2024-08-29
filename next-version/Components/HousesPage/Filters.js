@@ -4,33 +4,85 @@ import Dropdown from "./filter/dropdown";
 
 function Filters() {
   const Hero_Styles = useContext(UserContext);
+  const generatePriceList = () => {
+    const prices = [];
+    let currentPrice = 100000;
+    let increment = 10000;
+
+    while (currentPrice <= 100000000) {
+      for (let i = 0; i < 10; i++) {
+        prices.push(
+          currentPrice.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+          })
+        );
+        currentPrice += increment;
+      }
+      increment += 5000;
+    }
+    return prices;
+  };
+
+  const priceList = generatePriceList();
+
   const [selected, setSelected] = useState({
     "House Type": "All Houses",
     Width: "Any",
     Bedrooms: "Any",
     Carport: "Any",
-    min_price: 0,
-    max_price: Infinity,
-    Price: [this?.min_price, this?.max_price] || "---",
+    "Min price": undefined,
+    "Max price": undefined,
   });
   const handleItemClick = (item, label) => {
-    setSelected({ ...selected, [label]: item });
+    setSelected((prevSelected) => {
+      const updatedSelected = { ...prevSelected, [label]: item };
+      const minPrice = parseInt(
+        updatedSelected["Min price"]?.replace(/[^0-9]/g, ""),
+        10
+      );
+      const maxPrice = parseInt(
+        updatedSelected["Max price"]?.replace(/[^0-9]/g, ""),
+        10
+      );
+
+      if (minPrice && maxPrice && minPrice > maxPrice) {
+        const temp = updatedSelected["Min price"];
+        updatedSelected["Min price"] = updatedSelected["Max price"];
+        updatedSelected["Max price"] = temp;
+      }
+      if (label === "Min price" || label === "Max price") {
+        updatedSelected.Price = `${updatedSelected["Min price"] || "---"} - ${
+          updatedSelected["Max price"] || "---"
+        }`;
+      }
+      updatedSelected["Min price"] > updatedSelected["Max price"] &&
+        updatedSelected["Max price"] == 0;
+      return updatedSelected;
+    });
   };
   const renderFilterItem = (label, items) => (
     <div className={Hero_Styles.Filter_thing}>
       <label className={Hero_Styles.Filter_label}>{label}</label>
       <Dropdown label={label} selected={selected}>
-        <ul className={Hero_Styles.type_list}>
-          {items.map((item, index) => (
-            <li
-              key={index}
-              className={Hero_Styles.type_item}
-              onClick={() => handleItemClick(item, label)}
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+        {label === "Price" ? (
+          <div data-set="price" className={Hero_Styles.item_Price}>
+            {renderFilterItem("Min price", priceList)}
+            {renderFilterItem("Max price", priceList)}
+          </div>
+        ) : (
+          <ul className={Hero_Styles.type_list}>
+            {items.map((item, index) => (
+              <li
+                key={index}
+                className={Hero_Styles.type_item}
+                onClick={() => handleItemClick(item, label)}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        )}
       </Dropdown>
     </div>
   );
@@ -49,15 +101,7 @@ function Filters() {
           "+300",
         ])}
         {renderFilterItem("Bedrooms", ["Any", "1", "2", "3", "+4"])}
-        <div className={Hero_Styles.Filter_thing}>
-          <label className={Hero_Styles.Filter_label}>Price</label>
-          <Dropdown className={Hero_Styles.Filter_item}>
-            <div data-set="price" className={Hero_Styles.item_Price}>
-              {renderFilterItem("Min price", ["Min price"], "")}
-              {renderFilterItem("Max price", ["Max price"], "")}
-            </div>
-          </Dropdown>
-        </div>
+        {renderFilterItem("Price", [])}
         {renderFilterItem("Carport", ["Any", "1", "2", "3"])}
       </ul>
     </div>
