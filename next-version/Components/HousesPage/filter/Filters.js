@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react";
-import { UserContext } from "../context";
-import Dropdown from "./filter/dropdown";
+import { UserContext } from "../../context";
+import Dropdown from "./dropdown";
 
-function Filters() {
+function Filters({ data: { selected, setSelected } }) {
   const Hero_Styles = useContext(UserContext);
   const generatePriceList = () => {
-    const prices = [];
+    const prices = ["0"];
     let currentPrice = 100000;
     let increment = 10000;
 
@@ -25,15 +25,6 @@ function Filters() {
   };
 
   const priceList = generatePriceList();
-
-  const [selected, setSelected] = useState({
-    "House Type": "All Houses",
-    Width: "Any",
-    Bedrooms: "Any",
-    Carport: "Any",
-    "Min price": undefined,
-    "Max price": undefined,
-  });
   const handleItemClick = (item, label) => {
     setSelected((prevSelected) => {
       const updatedSelected = { ...prevSelected, [label]: item };
