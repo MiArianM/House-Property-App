@@ -6,9 +6,9 @@ import WhyUs from "../Components/FirstPage/Main/WhyUs";
 import { useRouter } from "next/router";
 import Main_Styles from "../styles/FirstPage/Main/Main.module.css";
 import HouseSelection from "../Components/FirstPage/Main/HouseSelection";
-
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+  console.log(router);
   return (
     <>
       <div className="background_blur1"></div>

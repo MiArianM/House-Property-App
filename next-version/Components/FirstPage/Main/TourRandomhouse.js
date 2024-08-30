@@ -14,7 +14,6 @@ function TourRandomhouse() {
     setTouringHouse(
       () => Trend_Houses[Math.floor(Math.random() * Trend_Houses.length)]
     );
-    console.log(touringHouse);
   }, []);
   const handleImageClick = (id) => {
     setSelectedImage(id);
@@ -46,8 +45,8 @@ function TourRandomhouse() {
               <div className={Main_Styles.TourHouse_info}>
                 <h3 className={Main_Styles.TourHouse_title}>House Detail</h3>
                 <div className="House-grid-container">
-                  {House_Properties.map((property) => (
-                    <div className="House-item">
+                  {House_Properties.map((property, index) => (
+                    <div key={index} className="House-item">
                       <img
                         className="item-pic"
                         alt={property.alt}

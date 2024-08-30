@@ -1,8 +1,10 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../context";
 import Dropdown from "./dropdown";
+import { useRouter } from "next/router";
 
 function Filters({ data: { selected, setSelected } }) {
+  const router = useRouter();
   const Hero_Styles = useContext(UserContext);
   const generatePriceList = () => {
     const prices = ["0"];
@@ -26,6 +28,10 @@ function Filters({ data: { selected, setSelected } }) {
 
   const priceList = generatePriceList();
   const handleItemClick = (item, label) => {
+    router.push({
+      pathname: router.pathname,
+      query: { ...router.query, [label]: item },
+    });
     setSelected((prevSelected) => {
       const updatedSelected = { ...prevSelected, [label]: item };
       const minPrice = parseInt(
@@ -94,6 +100,7 @@ function Filters({ data: { selected, setSelected } }) {
         {renderFilterItem("Bedrooms", ["Any", "1", "2", "3", "+4"])}
         {renderFilterItem("Price", [])}
         {renderFilterItem("Carport", ["Any", "1", "2", "3"])}
+        {renderFilterItem("Per Page", ["20", "30", "40"])}
       </ul>
     </div>
   );

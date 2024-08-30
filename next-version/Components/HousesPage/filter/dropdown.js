@@ -6,7 +6,6 @@ const Dropdown = ({ children, selected, label }) => {
   const Hero_Styles = useContext(UserContext);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
-  console.log(selected);
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
