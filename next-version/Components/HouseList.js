@@ -107,6 +107,41 @@ export const villas = [
   {
     name: "Roselands House",
     House_Details: {
+      bedrooms: "5",
+      bathroom: "5",
+      carport: "2",
+      floor: "1",
+      width: "518",
+      Homevideo:
+        "https://i.postimg.cc/rwmGZbF2/pexels-hristo-sahatchiev-273072-821357.jpg",
+      More_Homeinfo: [
+        {
+          id: 1,
+          src: "https://i.postimg.cc/W3Gp3d9m/pexels-pixabay-276534.jpg",
+        },
+        {
+          id: 2,
+          src: "https://i.postimg.cc/hjRJGW0m/pexels-heyho-7060814.jpg",
+        },
+        {
+          id: 3,
+          src: "https://i.postimg.cc/g272BFXh/pexels-heyho-6033590.jpg",
+        },
+      ],
+    },
+    description:
+      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
+    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+    price: "40020850",
+    owner: {
+      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
+      name: "Dianne Russell",
+      location: "Austria,Sidokis,445 Uhem Pike",
+    },
+  },
+  {
+    name: "Roselands House",
+    House_Details: {
       bedrooms: "3",
       bathroom: "2",
       carport: "2",

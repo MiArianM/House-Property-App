@@ -22,20 +22,24 @@ function HouseSelection({ Main_Styles }) {
             </div>
           </div>
         </Link>
-        <div className={Main_Styles.fig}>
-          <img src="https://i.postimg.cc/tRK6hLbv/villa.png" />
-          <div className={Main_Styles.caption}>
-            <h3>Villas</h3>
-            <h5>{villas.length} Found !</h5>
+        <Link href={"/Houses?House+Type=Villas"}>
+          <div className={Main_Styles.fig}>
+            <img src="https://i.postimg.cc/tRK6hLbv/villa.png" />
+            <div className={Main_Styles.caption}>
+              <h3>Villas</h3>
+              <h5>{villas.length} Found !</h5>
+            </div>
           </div>
-        </div>
-        <div className={Main_Styles.fig}>
-          <img src="https://i.postimg.cc/527kgw3t/apartment.png" />
-          <div className={Main_Styles.caption}>
-            <h3>Apartments</h3>
-            <h5>{apartment.length} Found !</h5>
+        </Link>
+        <Link href={"/Houses?House+Type=Apartments"}>
+          <div className={Main_Styles.fig}>
+            <img src="https://i.postimg.cc/527kgw3t/apartment.png" />
+            <div className={Main_Styles.caption}>
+              <h3>Apartments</h3>
+              <h5>{apartment.length} Found !</h5>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

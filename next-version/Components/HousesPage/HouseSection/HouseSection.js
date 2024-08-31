@@ -1,59 +1,85 @@
 import React, { useEffect, useState } from "react";
-import { villas } from "../../HouseList";
+import { apartment, villas } from "../../HouseList";
 import HouseCard from "./HouseCard";
 import Pagination from "@mui/material/Pagination";
 import { useRouter } from "next/router";
 function HouseSection({ selected }) {
+  const ranges = {
+    width: parseInt(selected["Width"]) === 300 ? 10000 : 50,
+    bedroom_carport: parseInt(selected["Bedrooms"]) === 4 ? 10000 : 1,
+  };
   const [houses, setHouses] = useState([]);
+  const dataChosen =
+    selected["House Type"] === "All Houses"
+      ? [...villas, ...apartment]
+      : selected["House Type"] === "Villas"
+      ? villas
+      : apartment;
   const router = useRouter();
-  const Filters = {
-    HouseType: selected["House Type"] || "All Houses",
-    housesPerPage: parseInt(selected["Per Page"], 10) || 20,
-    HouseWidth: parseInt(selected["Width"], 10) || "Any",
-    HouseBedrooms: parseInt(selected["Bedrooms"]) || "Any",
-    HouseCarport: parseInt(selected["Carport"]) || "Any",
-
-    handlePageChange: (event, value) => {
-      router.push({
-        pathname: router.pathname,
-        query: { ...router.query, page: value },
-      });
-    },
+  const housesPerPage = parseInt(selected["Per Page"], 10) || 20;
+  const handlePageChange = (event, value) => {
+    router.push({
+      pathname: router.pathname,
+      query: { ...router.query, page: value },
+    });
   };
   const { page } = router.query;
-  const { Width } = router.query;
-  const { "House Type": HouseType } = router.query;
-  const { Carport } = router.query;
-  const { Bedrooms } = router.query;
-  console.log(HouseType);
   const currentPage = parseInt(page) || 1;
-
   useEffect(() => {
-    setHouses(villas);
-  }, []);
-  const indexOfLastHouse = currentPage * Filters.housesPerPage;
-  const indexOfFirstHouse = indexOfLastHouse - Filters.housesPerPage;
-  const currentHouses = houses.slice(indexOfFirstHouse, indexOfLastHouse);
-  const finalHouses =
-    Filters.HouseWidth === "Any"
-      ? currentHouses
-      : currentHouses.filter(
-          (house) =>
-            house.House_Details.width >= Filters.HouseWidth &&
-            house.House_Details.width < Filters.HouseWidth + 50
-        );
+    setHouses(dataChosen);
+    console.log(selected);
+  }, [selected]);
+  const finalhouses = houses
+    ?.filter((house) =>
+      selected["Width"] === "Any"
+        ? house
+        : parseInt(house.House_Details.width) >= parseInt(selected["Width"]) &&
+          parseInt(house.House_Details.width) <
+            parseInt(selected["Width"]) + ranges.width
+    )
+    ?.filter((house) =>
+      selected["Bedrooms"] === "Any"
+        ? house
+        : parseInt(house.House_Details.bedrooms) >=
+            parseInt(selected["Bedrooms"]) &&
+          parseInt(house.House_Details.bedrooms) <
+            parseInt(selected["Bedrooms"]) + ranges.bedroom_carport
+    )
+    ?.filter((house) =>
+      selected["Carport"] === "Any"
+        ? house
+        : parseInt(house.House_Details.carport) >=
+            parseInt(selected["Carport"]) &&
+          parseInt(house.House_Details.carport) <
+            parseInt(selected["Carport"]) + ranges.bedroom_carport
+    )
+    ?.filter((house) =>
+      selected["Min price"] === undefined
+        ? house
+        : parseInt(house.price) >=
+          parseInt(selected["Min price"].replace(/[^0-9-.]/g, ""))
+    )
+    ?.filter((house) =>
+      selected["Max price"] === undefined
+        ? house
+        : parseInt(house.price) <
+          parseInt(selected["Max price"].replace(/[^0-9-.]/g, ""))
+    );
+  const indexOfLastHouse = currentPage * housesPerPage;
+  const indexOfFirstHouse = indexOfLastHouse - housesPerPage;
+  const currentHouses = finalhouses.slice(indexOfFirstHouse, indexOfLastHouse);
 
   return (
     <>
       <div className="house-gallery">
-        {finalHouses.map((house, index) => (
+        {currentHouses.map((house, index) => (
           <HouseCard key={index} house={house} />
         ))}
       </div>
       <Pagination
-        count={Math.ceil(houses.length / Filters.housesPerPage)}
+        count={Math.ceil(finalhouses.length / housesPerPage)}
         page={currentPage}
-        onChange={Filters.handlePageChange}
+        onChange={handlePageChange}
         color="primary"
       />
     </>

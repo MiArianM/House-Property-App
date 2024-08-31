@@ -49,8 +49,8 @@ function Filters({ data: { selected, setSelected } }) {
         updatedSelected["Max price"] = temp;
       }
       if (label === "Min price" || label === "Max price") {
-        updatedSelected.Price = `${updatedSelected["Min price"] || "---"} - ${
-          updatedSelected["Max price"] || "---"
+        updatedSelected.Price = `${updatedSelected["Min price"] || "max"} - ${
+          updatedSelected["Max price"] || "min"
         }`;
       }
       updatedSelected["Min price"] > updatedSelected["Max price"] &&
