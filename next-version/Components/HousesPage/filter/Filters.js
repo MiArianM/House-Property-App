@@ -100,7 +100,7 @@ function Filters({ data: { selected, setSelected } }) {
         {renderFilterItem("Bedrooms", ["Any", "1", "2", "3", "+4"])}
         {renderFilterItem("Price", [])}
         {renderFilterItem("Carport", ["Any", "1", "2", "3"])}
-        {renderFilterItem("Per Page", ["20", "30", "40"])}
+        {renderFilterItem("Per Page", ["10", "20", "30"])}
       </ul>
     </div>
   );

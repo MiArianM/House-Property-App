@@ -9,7 +9,7 @@ function Houses() {
   const router = useRouter();
   const [selected, setSelected] = useState({
     "House Type": router.query["House Type"] || "All Houses",
-    "Per Page": "20",
+    "Per Page": "10",
     Width: "Any",
     Bedrooms: "Any",
     Carport: "Any",

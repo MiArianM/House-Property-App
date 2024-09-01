@@ -24,15 +24,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "39103456",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Niue,Deliciv,1511 Bisos View",
-    },
   },
   {
     name: "Roselands House",
@@ -59,15 +53,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "38126989",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Gambia,Verecuj,769 Sespok Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -94,15 +82,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40020850",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Austria,Sidokis,445 Uhem Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -129,15 +111,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40020850",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Austria,Sidokis,445 Uhem Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -164,15 +140,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "18665533",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Israel,Luebeco,648 Wuvu Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -199,15 +169,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "23887255",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Sierra Leone,Vascaha,367 Roehu Junction",
-    },
   },
   {
     name: "Roselands House",
@@ -234,15 +198,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "18888449",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Liechtenstein,Sukfinehi,78 Dosfub Pass",
-    },
   },
   {
     name: "Roselands House",
@@ -269,15 +227,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "94000082",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Guam,Ruhonkiw,1874 Wenil Key",
-    },
   },
   {
     name: "Roselands House",
@@ -304,15 +256,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "90536049",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "China,Noriziv,1137 Ruse Junction",
-    },
   },
   {
     name: "Roselands House",
@@ -339,15 +285,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "97303732",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "United Republic of Tanzania,Nigeaj,1113 Pewmuk View",
-    },
   },
   {
     name: "Roselands House",
@@ -374,15 +314,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "25696841",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Uzbekistan,Vojematic,108 Cokeha Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -409,15 +343,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "85374499",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Nauru,Sicfafraj,804 Ginede Junction",
-    },
   },
   {
     name: "Roselands House",
@@ -444,15 +372,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "85936808",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kazakhstan,Fiwnuhog,1759 Sizlu Way",
-    },
   },
   {
     name: "Roselands House",
@@ -479,15 +401,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "99857006",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kingdom of the Netherlands,Buiwzef,1134 Bamja Way",
-    },
   },
   {
     name: "Roselands House",
@@ -514,15 +430,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "88963250",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Bahamas,Jovhofa,2000 Komca Street",
-    },
   },
   {
     name: "Roselands House",
@@ -549,15 +459,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "58468240",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Bahamas,Acepodwi,1877 Jajno Lane",
-    },
   },
   {
     name: "Roselands House",
@@ -584,15 +488,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "71314540",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Martin (French part),Dizawup,1298 Rugzi Road",
-    },
   },
   {
     name: "Roselands House",
@@ -619,15 +517,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "72450129",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "New Zealand,Vobikir,108 Sacus View",
-    },
   },
   {
     name: "Roselands House",
@@ -654,15 +546,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "28992822",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Martinique,Wuhomat,287 Bogzaj Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -689,15 +575,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "67907192",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Martinique,Jipucez,334 Buseg Boulevard",
-    },
   },
   {
     name: "Roselands House",
@@ -724,15 +604,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "88586397",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Martin (French part),Lesjowzeg,1823 Imuow Square",
-    },
   },
   {
     name: "Roselands House",
@@ -759,15 +633,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "25420644",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ukraine,Cunuro,915 Pageh Road",
-    },
   },
   {
     name: "Roselands House",
@@ -794,15 +662,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "85078939",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "North Macedonia,Uwfein,582 Itenaf Pass",
-    },
   },
   {
     name: "Roselands House",
@@ -829,15 +691,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "89416580",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Pakistan,Garohuk,1290 Kamvi Street",
-    },
   },
   {
     name: "Roselands House",
@@ -864,15 +720,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "78229919",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Panama,Sospume,1250 Icila Mill",
-    },
   },
   {
     name: "Roselands House",
@@ -899,15 +749,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "73032774",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "State of Palestine,Didhujabo,861 Davo Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -934,15 +778,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "24497412",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Indonesia,Buveju,1108 Tatuc Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -969,15 +807,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "87569185",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mexico,Hemhipim,960 Jedu Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -1004,15 +836,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "15374812",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Lebanon,Bipovto,386 Cosuz Drive",
-    },
   },
   {
     name: "Roselands House",
@@ -1039,15 +865,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "17495822",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Iraq,Sepukcek,1006 Kejpa Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -1074,15 +894,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "34819419",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Tonga,Edarlok,924 Wodfi Court",
-    },
   },
   {
     name: "Roselands House",
@@ -1109,15 +923,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "94967397",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Maldives,Wupwozfuk,1124 Voczeb Lane",
-    },
   },
   {
     name: "Roselands House",
@@ -1144,15 +952,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "82596797",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Christmas Island,Dinezub,1357 Dekcev River",
-    },
   },
   {
     name: "Roselands House",
@@ -1179,15 +981,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "66882007",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Guadeloupe,Zegfeopa,1667 Bifu Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -1214,15 +1010,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "41209683",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "El Salvador,Majkutem,1200 Liwowe Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -1249,15 +1039,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "18028942",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "French Guiana,Radikmec,1332 Orolo Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -1284,15 +1068,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "28120258",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Martinique,Ogamapoz,1584 Vovvo Center",
-    },
   },
   {
     name: "Roselands House",
@@ -1319,15 +1097,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "13040043",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Malaysia,Cedgezon,1453 Zitul Trail",
-    },
   },
   {
     name: "Roselands House",
@@ -1354,15 +1126,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "66190438",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Timor-Leste,Vufimoub,598 Sutwe Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -1389,15 +1155,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "20735079",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Grenada,Sufjipi,488 Wadpa Loop",
-    },
   },
   {
     name: "Roselands House",
@@ -1424,15 +1184,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "46340964",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "India,Lusolu,148 Fefma Highway",
-    },
   },
   {
     name: "Roselands House",
@@ -1459,15 +1213,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "39856018",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Afghanistan,Efobuvo,1006 Nifzec Way",
-    },
   },
   {
     name: "Roselands House",
@@ -1494,15 +1242,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "31397721",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Indonesia,Gocatuv,1391 Keoc Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -1529,15 +1271,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "48582685",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "San Marino,Racinos,1463 Korzu Mill",
-    },
   },
   {
     name: "Roselands House",
@@ -1564,15 +1300,9 @@ export const villas = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "35462796",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cook Islands,Pankikun,1440 Dotej Extension",
-    },
   },
 ];
 export const apartment = [
@@ -1601,15 +1331,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "16347742",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mayotte,Havpezvuv,1819 Fubu Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -1636,15 +1360,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "28628774",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Åland Islands,Ikjaofu,35 Malem Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -1671,15 +1389,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "99685965",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "American Samoa,Oszuhi,1202 Loju Park",
-    },
   },
   {
     name: "Roselands House",
@@ -1706,15 +1418,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "73794908",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Western Sahara,Bazbione,116 Lelog Glen",
-    },
   },
   {
     name: "Roselands House",
@@ -1741,15 +1447,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "63092802",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Heard Island and McDonald Islands,Cuthimbu,1607 Vegul Way",
-    },
   },
   {
     name: "Roselands House",
@@ -1776,15 +1476,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "90201433",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Isle of Man,Heelho,1540 Ijeben Center",
-    },
   },
   {
     name: "Roselands House",
@@ -1811,15 +1505,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "66405059",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Congo,Zavehfen,684 Zezut Point",
-    },
   },
   {
     name: "Roselands House",
@@ -1846,15 +1534,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "57441825",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Barthélemy,Uhnimdem,937 Subid Lane",
-    },
   },
   {
     name: "Roselands House",
@@ -1881,15 +1563,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "19869569",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mozambique,Rolpecu,784 Pozos Circle",
-    },
   },
   {
     name: "Roselands House",
@@ -1916,15 +1592,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "83671977",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cyprus,Unzofu,787 Regre Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -1951,15 +1621,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "20507236",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Nauru,Cufulcam,1596 Kikir Place",
-    },
   },
   {
     name: "Roselands House",
@@ -1986,15 +1650,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "95291570",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Pitcairn,Ocpuez,1426 Kujlib Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -2021,15 +1679,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "16010641",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Samoa,Gasobut,1236 Jovu Place",
-    },
   },
   {
     name: "Roselands House",
@@ -2056,15 +1708,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "65475543",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Bulgaria,Hoarag,1630 Usdi Path",
-    },
   },
   {
     name: "Roselands House",
@@ -2091,15 +1737,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "83221957",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ireland,Jifeffi,613 Ijga Center",
-    },
   },
   {
     name: "Roselands House",
@@ -2126,15 +1766,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "32057784",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Federated States of Micronesia,Tucaihe,889 Hodnet Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -2161,15 +1795,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "31865342",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Morocco,Katagti,1190 Takepi Highway",
-    },
   },
   {
     name: "Roselands House",
@@ -2196,15 +1824,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "10241230",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kuwait,Dipobpu,515 Wagut Grove",
-    },
   },
   {
     name: "Roselands House",
@@ -2231,15 +1853,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "56499557",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Myanmar,Holirjav,251 Tegmak Park",
-    },
   },
   {
     name: "Roselands House",
@@ -2266,15 +1882,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "37256557",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Guyana,Rudguege,262 Runfev Center",
-    },
   },
   {
     name: "Roselands House",
@@ -2301,15 +1911,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "13752878",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Montserrat,Jatubugo,1968 Ciruk Highway",
-    },
   },
   {
     name: "Roselands House",
@@ -2336,15 +1940,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "75754084",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Serbia,Iwuzobif,1812 Unfup Path",
-    },
   },
   {
     name: "Roselands House",
@@ -2371,15 +1969,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "10512273",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ghana,Comuzob,684 Veif Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -2406,15 +1998,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "52332559",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Tajikistan,Tafajela,919 Jitep Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -2441,15 +2027,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "55584172",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Lao People's Democratic Republic,Afaetudaz,989 Fucu Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -2476,15 +2056,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "17938532",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Bahamas,Bukjektud,1399 Ibhum Place",
-    },
   },
   {
     name: "Roselands House",
@@ -2511,16 +2085,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "24694560",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location:
-        "South Georgia and the South Sandwich Islands,Issuej,306 Viude Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -2547,15 +2114,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "85983635",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Lebanon,Cutjetas,1853 Jibo Ridge",
-    },
   },
   {
     name: "Roselands House",
@@ -2582,15 +2143,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "58584331",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cabo Verde,Dotutcav,725 Awelul Lane",
-    },
   },
   {
     name: "Roselands House",
@@ -2617,15 +2172,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "99380380",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Samoa,Tesirte,1928 Emere Mill",
-    },
   },
   {
     name: "Roselands House",
@@ -2652,15 +2201,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "92512737",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Djibouti,Sokoad,1797 Bice Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -2687,15 +2230,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "21978384",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Vanuatu,Cumosu,1932 Wezmo Court",
-    },
   },
   {
     name: "Roselands House",
@@ -2722,15 +2259,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "71632630",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Plurinational State of Bolivia,Irvefku,1403 Ijalu Highway",
-    },
   },
   {
     name: "Roselands House",
@@ -2757,15 +2288,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "69669373",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Falkland Islands (Malvinas),Zicbihmiw,707 Dugza Place",
-    },
   },
   {
     name: "Roselands House",
@@ -2792,15 +2317,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "48957004",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Oman,Mohafinah,532 Urfu Path",
-    },
   },
   {
     name: "Roselands House",
@@ -2827,15 +2346,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "53962805",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "India,Tirepo,1949 Liviv Circle",
-    },
   },
   {
     name: "Roselands House",
@@ -2862,15 +2375,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40523258",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Czechia,Kuvobu,1602 Suuk Boulevard",
-    },
   },
   {
     name: "Roselands House",
@@ -2897,15 +2404,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "39976081",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Latvia,Octuse,149 Puvcul Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -2932,15 +2433,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "70582325",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Gambia,Uzemnip,456 Sisuw Point",
-    },
   },
   {
     name: "Roselands House",
@@ -2967,15 +2462,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "69152141",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Iceland,Zoketje,699 Fotva Boulevard",
-    },
   },
   {
     name: "Roselands House",
@@ -3002,15 +2491,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "23476392",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ireland,Diukpe,1625 Fiwsid Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -3037,15 +2520,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "24227113",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Brazil,Ahpunlil,30 Fupi View",
-    },
   },
   {
     name: "Roselands House",
@@ -3072,15 +2549,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "45131353",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Iceland,Weuvhot,1152 Pulaj River",
-    },
   },
   {
     name: "Roselands House",
@@ -3107,15 +2578,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "71935038",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cuba,Vaigjij,1596 Benet Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -3142,15 +2607,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "26788854",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "North Macedonia,Araiduvu,280 Oberu Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -3177,15 +2636,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "56946216",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cuba,Capricvaf,439 Jivi Court",
-    },
   },
   {
     name: "Roselands House",
@@ -3212,15 +2665,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "55674131",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "India,Kuhigzuh,539 Guhsob Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -3247,15 +2694,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "28898607",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Sri Lanka,Anwindob,1024 Donag Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -3282,15 +2723,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "70318427",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Zambia,Ihujarnu,577 Ankap Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -3317,15 +2752,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "62242785",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Barthélemy,Gewauka,1963 Vizub Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -3352,15 +2781,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "87784665",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Equatorial Guinea,Jazumu,587 Reoli Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -3387,15 +2810,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "47248782",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Australia,Zaawpiv,959 Wewpu View",
-    },
   },
   {
     name: "Roselands House",
@@ -3422,15 +2839,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "39746876",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Croatia,Raderi,439 Kuer Ridge",
-    },
   },
   {
     name: "Roselands House",
@@ -3457,15 +2868,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "75466958",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "United States of America,Pikgomor,1689 Lahcoj Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -3492,15 +2897,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "96508734",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Burundi,Wogpefo,1251 Asci Point",
-    },
   },
   {
     name: "Roselands House",
@@ -3527,15 +2926,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "33241358",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Lao People's Democratic Republic,Zehfuca,471 Cijana Court",
-    },
   },
   {
     name: "Roselands House",
@@ -3562,15 +2955,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "12475893",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Egypt,Ujimogik,807 Robse Park",
-    },
   },
   {
     name: "Roselands House",
@@ -3597,15 +2984,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "93108441",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kingdom of the Netherlands,Nekuwihe,833 Rise Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -3632,15 +3013,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "45730011",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Malaysia,Leglizsaj,1569 Ofon Glen",
-    },
   },
   {
     name: "Roselands House",
@@ -3667,15 +3042,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "61730119",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Andorra,Sigomeh,700 Riddac Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -3702,15 +3071,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "24210264",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Romania,Tuzhadzo,615 Dudpo Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -3737,15 +3100,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "48962869",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Turkmenistan,Jokkucda,1943 Zikpi Court",
-    },
   },
   {
     name: "Roselands House",
@@ -3772,15 +3129,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "28953278",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kiribati,Havoge,953 Lefe Ridge",
-    },
   },
   {
     name: "Roselands House",
@@ -3807,15 +3158,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "38133476",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Yemen,Wukepno,1860 Noreb Key",
-    },
   },
   {
     name: "Roselands House",
@@ -3842,15 +3187,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "46909151",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Indonesia,Kuuzezu,1716 Odta Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -3877,15 +3216,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "41436338",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Albania,Ebwutaj,754 Zuih Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -3912,15 +3245,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "70135704",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Trinidad and Tobago,Tuhetdo,1449 Zerjip Glen",
-    },
   },
   {
     name: "Roselands House",
@@ -3947,15 +3274,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "56107997",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Martin (French part),Numcolik,1379 Ajoud Center",
-    },
   },
   {
     name: "Roselands House",
@@ -3982,15 +3303,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "83124389",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "North Macedonia,Huremas,1330 Kovus Point",
-    },
   },
   {
     name: "Roselands House",
@@ -4017,15 +3332,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "50446084",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Uzbekistan,Egraos,677 Keova Key",
-    },
   },
   {
     name: "Roselands House",
@@ -4052,15 +3361,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "72206257",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Liechtenstein,Jauhmol,1011 Jojah Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -4087,15 +3390,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "98498903",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Guam,Elnakwom,265 Cijis Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -4122,15 +3419,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40930847",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Indonesia,Valdogwe,769 Menam View",
-    },
   },
   {
     name: "Roselands House",
@@ -4157,15 +3448,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "17556754",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Timor-Leste,Jibneta,1150 Tusvu Center",
-    },
   },
   {
     name: "Roselands House",
@@ -4192,15 +3477,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "60714690",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Burundi,Ducfogod,152 Guzfuf Junction",
-    },
   },
   {
     name: "Roselands House",
@@ -4227,15 +3506,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "42367808",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Timor-Leste,Zuhude,914 Kikpe Place",
-    },
   },
   {
     name: "Roselands House",
@@ -4262,15 +3535,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "91408837",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Zimbabwe,Bazgevu,642 Lazep River",
-    },
   },
   {
     name: "Roselands House",
@@ -4297,15 +3564,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "26522179",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Costa Rica,Newiigi,532 Kobij Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -4332,15 +3593,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "51453195",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Malta,Paziot,534 Viafu Pass",
-    },
   },
   {
     name: "Roselands House",
@@ -4367,15 +3622,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "70666900",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Iraq,Cimukowu,670 Wujeb Road",
-    },
   },
   {
     name: "Roselands House",
@@ -4402,15 +3651,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "67419546",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Kingdom of the Netherlands,Tonezpek,1526 Ukip Point",
-    },
   },
   {
     name: "Roselands House",
@@ -4437,15 +3680,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "36098368",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "France,Riizacov,1326 Peeb Way",
-    },
   },
   {
     name: "Roselands House",
@@ -4472,15 +3709,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40579674",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Malaysia,Reegamer,1423 Avnal Park",
-    },
   },
   {
     name: "Roselands House",
@@ -4507,15 +3738,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "54250982",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Paraguay,Monheuke,1717 Reaw Street",
-    },
   },
   {
     name: "Roselands House",
@@ -4542,15 +3767,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "59174679",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mali,Lihiviwad,941 Gusi Point",
-    },
   },
   {
     name: "Roselands House",
@@ -4577,15 +3796,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "20385740",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "North Macedonia,Cinibpul,713 Rukil Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -4612,15 +3825,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "25633679",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Barthélemy,Dacjufjez,1742 Cetu Manor",
-    },
   },
   {
     name: "Roselands House",
@@ -4647,15 +3854,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "47604090",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "United Arab Emirates,Lawapjob,504 Dezi Road",
-    },
   },
   {
     name: "Roselands House",
@@ -4682,15 +3883,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40336539",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Qatar,Inudiro,1066 Ogite Place",
-    },
   },
   {
     name: "Roselands House",
@@ -4717,15 +3912,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "15769377",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mauritius,Lukpahpu,571 Guvki Square",
-    },
   },
   {
     name: "Roselands House",
@@ -4752,16 +3941,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "56420008",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location:
-        "Democratic People's Republic of Korea,Awarutu,1074 Zamhu Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -4788,15 +3970,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "17355775",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Christmas Island,Zufojrez,933 Abuje Trail",
-    },
   },
   {
     name: "Roselands House",
@@ -4823,15 +3999,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "14492837",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Greece,Lasanfib,242 Tunu Glen",
-    },
   },
   {
     name: "Roselands House",
@@ -4858,15 +4028,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "20562428",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Wallis and Futuna,Jipevob,1090 Duew Mill",
-    },
   },
   {
     name: "Roselands House",
@@ -4893,15 +4057,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "10832864",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mayotte,Gedgagod,154 Wiona Key",
-    },
   },
   {
     name: "Roselands House",
@@ -4928,15 +4086,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "96421071",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Sint Maarten (Dutch part),Owkadov,1934 Beci Trail",
-    },
   },
   {
     name: "Roselands House",
@@ -4963,15 +4115,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "89755752",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Dominican Republic,Wesimse,1672 Emoot Pass",
-    },
   },
   {
     name: "Roselands House",
@@ -4998,15 +4144,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "23767285",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Luxembourg,Cipiuc,1218 Jetgo Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -5033,15 +4173,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "10662555",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Greece,Enirouj,162 Nowek Court",
-    },
   },
   {
     name: "Roselands House",
@@ -5068,15 +4202,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "88149755",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Zimbabwe,Sinzulnu,389 Gouv Way",
-    },
   },
   {
     name: "Roselands House",
@@ -5103,15 +4231,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "36649617",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "State of Palestine,Suditir,8 Minwih Mill",
-    },
   },
   {
     name: "Roselands House",
@@ -5138,15 +4260,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "82995767",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mozambique,Cidufkit,1721 Misneh Square",
-    },
   },
   {
     name: "Roselands House",
@@ -5173,15 +4289,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "44915099",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "French Polynesia,Ezaritib,9 Dozu Boulevard",
-    },
   },
   {
     name: "Roselands House",
@@ -5208,15 +4318,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "11513454",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Burundi,Cucuer,1310 Golvuh Pass",
-    },
   },
   {
     name: "Roselands House",
@@ -5243,15 +4347,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "40620652",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "El Salvador,Ivefimepu,304 Wegle Path",
-    },
   },
   {
     name: "Roselands House",
@@ -5278,15 +4376,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "92615723",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Austria,Vetovobe,1654 Nico Path",
-    },
   },
   {
     name: "Roselands House",
@@ -5313,15 +4405,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "96507086",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Guyana,Safpalvec,513 Wivna Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -5348,15 +4434,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "37746033",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Paraguay,Napkucri,640 Zizsop River",
-    },
   },
   {
     name: "Roselands House",
@@ -5383,15 +4463,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "14299571",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Czechia,Masafmon,1412 Duftoz Parkway",
-    },
   },
   {
     name: "Roselands House",
@@ -5418,15 +4492,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "43054603",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Sudan,Fimisme,1426 Gura Grove",
-    },
   },
   {
     name: "Roselands House",
@@ -5453,15 +4521,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "80305518",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Namibia,Alomousi,1456 Wage Place",
-    },
   },
   {
     name: "Roselands House",
@@ -5488,15 +4550,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "53331702",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Virgin Islands (British),Ophopi,1375 Sivi Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -5523,15 +4579,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "15939633",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "United Arab Emirates,Hecizo,1323 Gaspu View",
-    },
   },
   {
     name: "Roselands House",
@@ -5558,15 +4608,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "24998240",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Cayman Islands,Petuwwef,494 Uvme Key",
-    },
   },
   {
     name: "Roselands House",
@@ -5593,15 +4637,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "38551970",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Holy See,Puakora,1600 Ubaru Terrace",
-    },
   },
   {
     name: "Roselands House",
@@ -5628,15 +4666,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "22386213",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Mali,Gihurab,509 Izana Avenue",
-    },
   },
   {
     name: "Roselands House",
@@ -5663,15 +4695,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "95399973",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Comoros,Kafalwuw,507 Upacu Pike",
-    },
   },
   {
     name: "Roselands House",
@@ -5698,15 +4724,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "23285705",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Tonga,Pudosud,290 Atgu River",
-    },
   },
   {
     name: "Roselands House",
@@ -5733,15 +4753,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "46975211",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Burundi,Hifipaw,433 Korcu Point",
-    },
   },
   {
     name: "Roselands House",
@@ -5768,15 +4782,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "76201798",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Brunei Darussalam,Fuheatu,1503 Jesev Plaza",
-    },
   },
   {
     name: "Roselands House",
@@ -5803,15 +4811,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "72065283",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Kitts and Nevis,Ejhope,1855 Novpud Trail",
-    },
   },
   {
     name: "Roselands House",
@@ -5838,15 +4840,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "81060990",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "United States Minor Outlying Islands,Vehemlu,1483 Ezna Point",
-    },
   },
   {
     name: "Roselands House",
@@ -5873,15 +4869,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "90553538",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Norway,Biorrow,177 Tirmaw Heights",
-    },
   },
   {
     name: "Roselands House",
@@ -5908,16 +4898,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "83116251",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location:
-        "South Georgia and the South Sandwich Islands,Jedudta,988 Ejumef Road",
-    },
   },
   {
     name: "Roselands House",
@@ -5944,15 +4927,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "83133601",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Eswatini,Evjefoz,1334 Fujes Ridge",
-    },
   },
   {
     name: "Roselands House",
@@ -5979,15 +4956,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "62872075",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Saint Vincent and the Grenadines,Banacok,186 Huiwo Ridge",
-    },
   },
   {
     name: "Roselands House",
@@ -6014,15 +4985,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "51671176",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ireland,Kunacdaw,1390 Iceavo Extension",
-    },
   },
   {
     name: "Roselands House",
@@ -6049,15 +5014,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "60684648",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Pitcairn,Pejooha,49 Tozud Drive",
-    },
   },
   {
     name: "Roselands House",
@@ -6084,15 +5043,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "60549596",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Latvia,Fiwzesdu,1122 Fekumi Turnpike",
-    },
   },
   {
     name: "Roselands House",
@@ -6119,15 +5072,9 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "56965487",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Ghana,Kismelro,61 Igiun Extension",
-    },
   },
   {
     name: "Roselands House",
@@ -6154,14 +5101,8 @@ export const apartment = [
         },
       ],
     },
-    description:
-      "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
-    imageUrl: "https://i.postimg.cc/yNchfbKt/pexels-pixabay-259588.jpg",
+
+    owner: {},
     price: "72110681",
-    owner: {
-      pic: "https://i.postimg.cc/d0vd6MRf/pexels-italo-melo-881954-2379004.jpg",
-      name: "Dianne Russell",
-      location: "Honduras,Rokrekgo,1282 Mezta View",
-    },
   },
 ];
