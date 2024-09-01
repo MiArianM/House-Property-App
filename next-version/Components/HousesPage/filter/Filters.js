@@ -1,11 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { UserContext } from "../../context";
 import Dropdown from "./dropdown";
 import { useRouter } from "next/router";
 
 function Filters({ data: { selected, setSelected } }) {
   const router = useRouter();
-  const Hero_Styles = useContext(UserContext);
+  const { Hero_Styles } = useContext(UserContext);
   const generatePriceList = () => {
     const prices = ["0"];
     let currentPrice = 100000;

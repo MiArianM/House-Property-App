@@ -96,6 +96,7 @@ function HouseSection({ selected }) {
             const photo = result.response.results[index];
             return {
               ...house,
+              id: photo?.id,
               imageUrl: photo?.urls?.regular,
               description: photo?.description || "No description available",
               owner: {
@@ -129,7 +130,7 @@ function HouseSection({ selected }) {
 
   if (loading) {
     return (
-      <div class="loader">
+      <div className="loader">
         <div></div>
         <div></div>
         <div></div>

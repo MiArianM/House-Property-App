@@ -19,7 +19,7 @@ function Houses() {
   });
   return (
     <section className="Hero Houses">
-      <UserContext.Provider value={Hero_Styles}>
+      <UserContext.Provider value={{ Hero_Styles, Main_Styles }}>
         <Filters data={{ selected, setSelected }} />
         <HouseSection selected={selected} />
       </UserContext.Provider>
