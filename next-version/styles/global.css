@@ -366,11 +366,12 @@ background-color: #3C4563 !important;
 .house-card-image {
   width: 500px;
   height: 200px;
-  object-fit:fill;
+  object-fit:cover;
 }
 
 .house-card-content {
   padding: 16px;
+  font-family: "medium-lexend";
 }
 
 .house-card-content h2 {
@@ -471,4 +472,20 @@ background-color: #3C4563 !important;
   50% {
     transform: rotate(10deg);
   }
+}
+/* Single House Section*/
+.SingleHouse{
+  width: 80%;
+  max-width: 700px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+}
+@media (max-width:575px) {
+    .SingleHouse{
+  width: 60%;
+
+    }
+    
 }

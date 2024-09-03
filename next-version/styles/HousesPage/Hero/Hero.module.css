@@ -1,8 +1,13 @@
 .Filter_{
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     margin: 0 !important;
     padding: 0 !important;
+}
+.Filter_container{
+    width: 100%;
+    max-width: 800px;
 }
 .Filter_thing{
     display: flex;
@@ -109,3 +114,13 @@
 .type_item:nth-child(1){
     margin-top: 0;
 }
+@media (max-width: 767px) {  
+    .Filter_container{
+        width: 80%;
+    }
+  }
+  @media (max-width: 414px) {  
+    .Filter_container{
+        width: 60%;
+    }
+  }

@@ -85,7 +85,7 @@ function Filters({ data: { selected, setSelected } }) {
   );
 
   return (
-    <div>
+    <div className={Hero_Styles.Filter_container}>
       <ul className={Hero_Styles.Filter_}>
         {renderFilterItem("House Type", ["All Houses", "Villas", "Apartments"])}
         {renderFilterItem("Width", [

@@ -74,8 +74,7 @@ function HouseSection({ selected }) {
 
   const fetchPhotosAndUpdateHouses = async () => {
     setLoading(true);
-    setPhotos([]); // Clear previous photos to avoid stale data
-
+    setPhotos([]);
     try {
       const result = await api.search.getPhotos({
         query: "house",
@@ -89,7 +88,6 @@ function HouseSection({ selected }) {
 
         const filteredHouses = applyFilters(dataChosen);
 
-        // Update houses with fetched photos
         const updatedHouses = filteredHouses
           .slice((currentPage - 1) * housesPerPage, currentPage * housesPerPage)
           .map((house, index) => {

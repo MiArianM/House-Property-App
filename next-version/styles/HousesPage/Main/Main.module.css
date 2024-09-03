@@ -1,4 +1,90 @@
-.DetailButton{
+.house_card {
     display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+  }
+  .house_card:hover {
+    transform: scale(1.02);
+  }
+  .house_card_image {
+    width: 500px;
+    height: 220px;
+    object-fit:fill;
+  }
+  .house_card_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .content_title{
+    font-family: "bold-lexend";
+    font-size: 18px;
+  }
+  .content_description{
+    font-size: 14px;
+    filter: opacity(0.6);
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 1.9;
+    height: 60px;
+    overflow-y: scroll;
+    padding:  10px;
+  }
+
+  .price{
+    font-size: 12px;
+    font-family:"semibold-lexend";
+    letter-spacing: 1.1px;
+  }
+  .House_grid_container{
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
+    grid-template-rows: repeat(3, 70px);
+  }
+  .property:nth-child(5){
+    grid-column: 1 / span 2;
     justify-content: center;
-}
+    align-items: center;
+  }
+  .house_owner{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .owner_name{
+    font-family: "medium-lexend";
+  }
+  .owner_location{
+    font-family: "regular-lexend";
+    filter: opacity(0.85);
+  }
+  .owner_pic{
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .DetailButton{
+    padding: 4px 30px;
+    border: none;
+    color: rgb(136, 138, 140);
+    border-top: rgb(94, 94, 243) solid 1px;
+    font-family: "medium-lexend";
+    border-radius: 1px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: 0.75s all;
+    cursor: pointer;
+  }
+  .DetailButton:hover{
+    box-shadow: 10px 7px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    
+  }

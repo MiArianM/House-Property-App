@@ -4,7 +4,7 @@ function DefaultNav({ styles }) {
   return (
     <>
       <nav className={styles.Hero_nav}>
-        <Link href={"./"}>
+        <Link href={"/"}>
           <div className={styles.Nav_Brand}>
             <img
               style={{ cursor: "pointer" }}

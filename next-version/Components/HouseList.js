@@ -176,7 +176,7 @@ export const villas = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "5",
       carport: "2",
       floor: "2",
@@ -582,7 +582,7 @@ export const villas = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "1",
       floor: "3",
@@ -640,7 +640,7 @@ export const villas = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "4",
       carport: "2",
       floor: "3",
@@ -785,7 +785,7 @@ export const villas = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "2",
       floor: "2",
@@ -1541,7 +1541,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "4",
       carport: "2",
       floor: "3",
@@ -1657,7 +1657,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "3",
       carport: "1",
       floor: "1",
@@ -1831,7 +1831,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "2",
       floor: "3",
@@ -2034,7 +2034,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "2",
       floor: "1",
@@ -2150,7 +2150,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "4",
       carport: "1",
       floor: "2",
@@ -2527,7 +2527,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "1",
       floor: "2",
@@ -2672,7 +2672,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "2",
       floor: "3",
@@ -2701,7 +2701,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "2",
       floor: "3",
@@ -2933,7 +2933,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "3",
       carport: "1",
       floor: "1",
@@ -3223,7 +3223,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "5",
       carport: "2",
       floor: "2",
@@ -3281,7 +3281,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "1",
       floor: "2",
@@ -3368,7 +3368,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "1",
       floor: "2",
@@ -3426,7 +3426,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "1",
       floor: "3",
@@ -3658,7 +3658,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "3",
       carport: "1",
       floor: "3",
@@ -3745,7 +3745,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "2",
       floor: "3",
@@ -3919,7 +3919,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "3",
       carport: "2",
       floor: "1",
@@ -3948,7 +3948,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "5",
       carport: "1",
       floor: "3",
@@ -4122,7 +4122,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "1",
       carport: "1",
       floor: "1",
@@ -4470,7 +4470,7 @@ export const apartment = [
   {
     name: "Roselands House",
     House_Details: {
-      bedrooms: "0",
+      bedrooms: "5",
       bathroom: "2",
       carport: "1",
       floor: "3",

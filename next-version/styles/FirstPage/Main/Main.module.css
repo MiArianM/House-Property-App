@@ -224,6 +224,7 @@
 .houses{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .fig {
   width: 500px;
@@ -389,11 +390,6 @@
   .tour_desktop{
     max-width: 60%;
   }
-  }
-  @media(max-width:775px){
-    .houses{
-      flex-direction: column;
-    }
   }
   /* slider-whyus-text settings */
   @media(max-width:545px){

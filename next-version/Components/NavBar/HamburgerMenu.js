@@ -1,8 +1,18 @@
+import Link from "next/link";
 import React, { useState } from "react";
 function HamburgerMenu({ styles }) {
   const [menuopened, setMenuOpened] = useState(false);
   return (
     <>
+      <Link className={styles.hamburger} href={"/"}>
+        <div className={styles.Nav_Brand}>
+          <img
+            style={{ cursor: "pointer" }}
+            src="https://i.postimg.cc/Hs9QPXDb/Brand.png"
+          />
+          <h2 className={styles.BrandName}>-V4 | House-App</h2>
+        </div>
+      </Link>
       <button
         onClick={() => setMenuOpened((menuopened) => !menuopened)}
         id={styles.burger}
