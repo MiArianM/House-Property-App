@@ -60,7 +60,9 @@ function SingleHouse() {
           />
         </div>
         <div className={styles.buttons}>
-          <Link href={"./"}>Back</Link>
+          <button onClick={router.back} href={"./"}>
+            Back
+          </button>
           <Link href={`./${id}/Purchase`}>Purchase</Link>
         </div>
       </div>
